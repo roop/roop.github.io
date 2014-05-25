@@ -1,0 +1,10 @@
+// Mixin for importing web fonts
+
+@mixin font-face-woff($family, $path, $slug, $weight, $style) {
+    @font-face {
+        font-family: $family;
+        src: url('#{$path}/#{$slug}.woff') format('woff');
+        font-weight: $weight;
+        font-style: $style;
+    }
+}

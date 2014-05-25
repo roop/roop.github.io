@@ -64,10 +64,6 @@ textarea {
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
-body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
-}
-
 .main-container {
     width: 90%;
     margin: 0 5%;
@@ -102,7 +98,6 @@ $content_light_gray: #6e6e6e;
 nav {
     a {
         text-decoration: none;
-        font-weight: bold;
         color: $headline_gray;
     }
 
@@ -212,22 +207,85 @@ header.site-navigation-wide-screen {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Custom styles
    ========================================================================== */
 
 
+/* ====================
+   Typography
+   ==================== */
 
+@import 'init';
 
+@include font-face-woff('Charter', 'fonts/Charter', 'regular', normal, normal);
+@include font-face-woff('Charter', 'fonts/Charter', 'bold', bold, normal);
+@include font-face-woff('Charter', 'fonts/Charter', 'italic', normal, italic);
+@include font-face-woff('Fira Sans', '//brick.a.ssl.fastly.net/fonts/firasans', '300', 300, normal);
+@include font-face-woff('Fira Sans', '//brick.a.ssl.fastly.net/fonts/firasans', '400', 400, normal);
+@include font-face-woff('Fira Sans', '//brick.a.ssl.fastly.net/fonts/firasans', '500', 500, normal);
+@include font-face-woff('Source Code Pro', '//brick.a.ssl.fastly.net/fonts/sourcecodepro', '400', 400, normal);
 
+$header_fonts: 'Fira Sans', 'Verdana', sans-serif;
+$content_fonts: 'Charter', 'Georgia', serif;
+$code_fonts: 'Source Code Pro', 'Courier New', monospace;
 
+body {
+    font-family: $content_fonts;
+}
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: $header_fonts;
+}
 
+h1 {
+    font-size: 2.2em;
+    font-weight: 400;
+}
 
+h2 {
+    font-size: 1.4em;
+    font-weight: 300;
+}
 
+h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+}
 
+h4 {
+    font-size: 0.9em;
+    font-weight: 300;
+}
 
+h5, h6 {
+    font-size: 1.0em;
+    font-weight: 400;
+}
 
+pre, code {
+    font-family: $code_fonts;
+}
 
+nav {
+    font-family: $header_fonts;
+
+    ul li {
+        font-size: 1.0em;
+        font-weight: 400;
+        line-height: 2;
+    }
+
+    h3 {
+        font-size: 1.0em;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+}
+
+footer {
+    font-family: $header_fonts;
+    font-weight: 300;
+}
 
 /* ==========================================================================
    Media Queries
