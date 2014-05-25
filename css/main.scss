@@ -95,20 +95,6 @@ $content_light_gray: #6e6e6e;
     border-top: 10px solid $blue_gray;
 }
 
-.footer-container,
-.main aside {
-    border-top: 20px solid #e44d26;
-}
-
-.footer-container,
-.main aside {
-    background: #f16529;
-}
-
-.title {
-    color: white;
-}
-
 /* ================
     Navigation menu
    ================ */
@@ -200,18 +186,21 @@ header.site-navigation-wide-screen {
     width: 100%;
 }
 
-.main article h1 {
-    font-size: 2em;
-}
-
 .main aside {
     color: white;
     padding: 0px 5% 10px;
 }
 
-.footer-container footer {
-    color: white;
-    padding: 20px 0;
+.site-footer-container {
+    color: $white;
+    background-color: $blue_gray;
+    text-align: center;
+    footer {
+        padding: 1em 0 0.5em 0;
+        font-size: 60%;
+        line-height: 1.15;
+        color: lighten($line_gray, 5%);
+    }
 }
 
 /* ===============
