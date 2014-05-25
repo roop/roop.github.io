@@ -60,18 +60,9 @@ textarea {
 }
 
 
-/* ===== Initializr Styles ==================================================
-   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+/* ==========================================================================
+    Structure
    ========================================================================== */
-
-.main-container {
-    width: 90%;
-    margin: 0 5%;
-}
-
-/* ===================
-    Roop's Theme
-   =================== */
 
 $white: #fff;
 $blue_gray: #5F6977;
@@ -89,6 +80,11 @@ $content_light_gray: #6e6e6e;
 .header-container {
     background: $white;
     border-top: 10px solid $blue_gray;
+}
+
+.main-container {
+    width: 90%;
+    margin: 0 5%;
 }
 
 /* ================
