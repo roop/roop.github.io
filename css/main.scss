@@ -68,7 +68,7 @@ body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
 }
 
-.wrapper {
+.main-container {
     width: 90%;
     margin: 0 5%;
 }
@@ -109,44 +109,78 @@ $content_light_gray: #6e6e6e;
     color: white;
 }
 
-/* ==============================
-    Menu for narrow-width screens
-   ============================== */
+/* ================
+    Navigation menu
+   ================ */
 
 nav {
-    margin: auto;
-    text-align: center;
-    width: 100%;
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        color: $headline_gray;
+    }
+
+    a:visited {
+        color: lighten($headline_gray, 20%);
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: darken($headline_gray, 30%);
+    }
 }
 
-nav ul li {
-    display: inline;
+// For narrow screens (i.e. mobiles)
+
+header.site-navigation-narrow-screen {
+    nav {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+
+        ul li {
+            display: inline;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        li.nav-separator {
+            color: $line_gray
+        }
+
+        a {
+            padding: 0 1em;
+            text-align: center;
+        }
+    }
 }
 
-li.nav-separator {
-    color: $line_gray
-}
+// For wide screens (i.e. tablets, desktops)
 
-nav ul {
-    margin: 0;
-    padding: 0;
-}
+header.site-navigation-wide-screen {
+    display: none; // This is overridden later only for wide-screens
+    nav {
+        width: 70%;
 
-nav a {
-    padding: 0 1em;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    color: $headline_gray;
-}
+        h3 {
+            text-align: left;
+            border-bottom: 1px solid $line_gray;
+            margin-bottom: 0.5em;
+        }
 
-nav a:hover,
-nav a:visited {
-    color: darken($headline_gray, 30%);
-}
+        ul li {
+            display: block;
+        }
 
-nav a:hover {
-    text-decoration: underline;
+        ul {
+            margin: 0 0 2em 0.2em;
+            padding: 0;
+            text-align: right;
+        }
+    }
 }
 
 /* ========================
@@ -162,6 +196,8 @@ nav a:hover {
 
 .main {
     padding: 30px 0;
+    margin: 0 auto 0 auto;
+    width: 100%;
 }
 
 .main article h1 {
@@ -208,56 +244,32 @@ nav a:hover {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 720px) {
 
-/* ====================
-    WIDE: CSS3 Effects
-   ==================== */
+   // Navigation menu
 
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
-
-/* ============
-    WIDE: Menu
-   ============ */
-
-    .title {
+    header.site-navigation-wide-screen {
+        display: block;
         float: left;
+        margin: 2em 5% 0 0;
+        width: 23%;
     }
 
-    nav {
-        float: right;
-        width: 38%;
+    header.site-navigation-narrow-screen {
+        display: none;
     }
 
-/* ============
-    WIDE: Main
-   ============ */
+   // Main
+
+    .main {
+        width: 85%;
+        max-width: 48em;
+    }
 
     .main article {
         float: left;
-        width: 57%;
-    }
-
-    .main aside {
-        float: right;
-        width: 28%;
-    }
-}
-
-@media only screen and (min-width: 1140px) {
-
-/* ===============
-    Maximal Width
-   =============== */
-
-    .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
-        margin: 0 auto;
+        margin: 2em 0 0 5%;
+        width: 67%;
     }
 }
 
