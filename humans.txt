@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Roopesh Chander -- @roopeshchander
 
 # THANKS
 
-    <name>
+    Jonathan Verrecchia -- Initializr -- initializr.com
+    Matthew Butterick -- Practical Typography -- practicaltypography.com
+
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    HTML5, SCSS,
+    Jekyll, Markdown, Liquid
