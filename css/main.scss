@@ -74,11 +74,25 @@ body {
 }
 
 /* ===================
-    ALL: Orange Theme
+    Roop's Theme
    =================== */
 
+$white: #fff;
+$blue_gray: #5F6977;
+$line_gray: #ccc;
+$headline_gray: #4e4e4e;
+$post_date_gray: #979797;
+$content_dark_gray: #343434;
+$content_light_gray: #6e6e6e;
+
+.site-navigation-narrow-screen {
+    margin-top: 10px;
+    padding-top: 2em;
+}
+
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    background: $white;
+    border-top: 10px solid $blue_gray;
 }
 
 .footer-container,
@@ -86,7 +100,6 @@ body {
     border-top: 20px solid #e44d26;
 }
 
-.header-container,
 .footer-container,
 .main aside {
     background: #f16529;
@@ -96,9 +109,23 @@ body {
     color: white;
 }
 
-/* ==============
-    MOBILE: Menu
-   ============== */
+/* ==============================
+    Menu for narrow-width screens
+   ============================== */
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+}
+
+li.nav-separator {
+    color: $line_gray
+}
 
 nav ul {
     margin: 0;
@@ -106,27 +133,29 @@ nav ul {
 }
 
 nav a {
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
+    padding: 0 1em;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
-
-    color: white;
-    background: #e44d26;
+    color: $headline_gray;
 }
 
 nav a:hover,
 nav a:visited {
-    color: white;
+    color: darken($headline_gray, 30%);
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+.oldie nav a {
+    margin: 0 0.7%;
+}
 /* ==============
     MOBILE: Main
    ============== */
@@ -178,41 +207,6 @@ nav a:hover {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
-@media only screen and (min-width: 480px) {
-
-/* ====================
-    INTERMEDIATE: Menu
-   ==================== */
-
-    nav a {
-        float: left;
-        width: 27%;
-        margin: 0 1.7%;
-        padding: 25px 2%;
-        margin-bottom: 0;
-    }
-
-    nav li:first-child a {
-        margin-left: 0;
-    }
-
-    nav li:last-child a {
-        margin-right: 0;
-    }
-
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-    nav ul li {
-        display: inline;
-    }
-
-    .oldie nav a {
-        margin: 0 0.7%;
-    }
-}
 
 @media only screen and (min-width: 768px) {
 
