@@ -1,0 +1,18 @@
+name:           roopc.net
+
+url:            http://roopc.net
+domain:         roopc.net
+
+# Comment out when deploying
+url:              http://localhost:8082
+domain:           localhost:8082
+
+permalink:   /:categories/:year/:title
+
+markdown:    'redcarpet'
+
+redcarpet:
+    extensions: [ 'smart', 'no_intra_emphasis', 'autolink' ]
+
+highlighter: 'pygments'
+
