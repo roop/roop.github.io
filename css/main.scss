@@ -310,6 +310,13 @@ article {
     }
 }
 
+blockquote {
+    margin-left: 0;
+    padding-left: 1em;
+    border-left: 10px solid $line_gray;
+    color: $content_light_gray;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
