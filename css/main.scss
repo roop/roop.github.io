@@ -285,6 +285,29 @@ footer {
     font-weight: 300;
 }
 
+
+/* ====================
+   Post or Page
+   ==================== */
+
+article {
+    h1 {
+        margin-bottom: 0.5rem;
+    }
+    h2 {
+        margin-top: 0em;
+        text-transform: uppercase;
+    }
+}
+
+span.post-date {
+    font-family: $header_fonts;
+    font-weight: 300;
+    font-size: 110%;
+    color: $post_date_gray;
+    margin: 0;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
