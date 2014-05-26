@@ -231,6 +231,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $header_fonts;
+    line-height: 1.25;
+    text-rendering: optimizeLegibility;
 }
 
 h1 {
@@ -239,23 +241,23 @@ h1 {
 }
 
 h2 {
-    font-size: 1.4em;
+    font-size: (1 + 1 / 3.0) em;
     font-weight: 300;
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: (1 + 1 / 3.0) em;
     font-weight: 500;
 }
 
 h4 {
-    font-size: 0.9em;
+    font-size: 1.0em;
     font-weight: 300;
 }
 
 h5, h6 {
-    font-size: 1.0em;
-    font-weight: 400;
+    font-size: 0.9em;
+    font-weight: 300;
 }
 
 pre, code {
