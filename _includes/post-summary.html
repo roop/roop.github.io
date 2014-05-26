@@ -1,0 +1,7 @@
+<h1>
+  <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a>
+</h1>
+
+<p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}
+  <span class="post-date">{{ post.date | date: "&nbsp;/&nbsp;%B&nbsp;%d,&nbsp;%Y" }}</span>
+</p>

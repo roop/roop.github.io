@@ -336,6 +336,65 @@ pre {
     }
 }
 
+
+/* ====================
+   Post index page
+   ==================== */
+
+.post-index-container {
+    margin-bottom: 3em;
+}
+
+aside.roop-intro {
+    font-family: $header_fonts;
+    font-weight: 300;
+    font-size: 115%;
+    color: lighten($content_light_gray, 20%);
+    margin: 1.5em 0 2em 0;
+}
+
+.post-index-header {
+    h1 {
+        font-size: 1.5em;
+        font-weight: 500;
+        color: $content_dark_gray;
+        margin: 0 0 2em 0;
+        border-bottom: 1px solid $line_gray;
+    }
+    h2 {
+        font-size: 1.8em;
+        font-weight: 300;
+        color: $content_dark_gray;
+        margin: 2em 0 0 0;
+        border-bottom: 1px solid $line_gray;
+    }
+}
+
+.post-index {
+    color: $content_dark_gray;
+
+    h1 {
+        font-size: 1.2em;
+        font-weight: 500;
+        color: $headline_gray;
+        margin-bottom: 0;
+    }
+
+    a, a:visited {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $link_blue;
+        text-decoration: none;
+    }
+
+    p {
+        margin-top: 0.5em;
+    }
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -347,7 +406,7 @@ pre {
         max-width: 48em;
     }
 
-    .main article {
+    .main article, .post-index-container {
         margin: 1em auto 0 auto;
         width: 82%;
     }
