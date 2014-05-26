@@ -297,15 +297,16 @@ article {
         -ms-interpolation-mode: bicubic;
     }
     figure {
-        width: 100%;
-        border-bottom: 1px dotted $line_gray;
         text-align: center;
         margin-bottom: 2.5em;
     }
     figcaption {
+        display: block;
         font-family: $header_fonts;
         font-weight: 300;
         font-size: 80%;
+        margin: 1em 0 0 0;
+        border-bottom: 1px dotted $line_gray;
     }
 }
 
@@ -328,6 +329,18 @@ article {
     html {
         font-size: 112.5%;
     }
+
+    figure {
+        // go wider than the text
+        width: 120%;
+        margin-left: -10%;
+        figcaption {
+            width: 83.3333%; // 100/120 %
+            // hcenter the figcaption inside the figure
+            margin: 1em 8.3333% 0 8.3333%;
+        }
+    }
+
 }
 
 /* ==========================================================================
