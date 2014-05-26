@@ -5,7 +5,7 @@ tagline: ""
 description: "In which I try to guess the reasoning behind Nokia picking Windows Phone over MeeGo, two years ago"
 category: posts
 tags: [nokia, meego, microsoft]
-postscript: ""
+postscript: "Full-disclosure: Nokia has been both a key customer and a software vendor in my company's Qt consulting business, when Qt was with Nokia. More recently, my apps were being distributed through the Nokia Store."
 
 ---
 
@@ -144,8 +144,4 @@ Is an ecosystem _that_ important? Probably yes, I think, for the big
 guys who need to sell millions of devices per year to even stay in
 business. And if the ecosystem is that important, it means that
 BlackBerry doesn't really have a chance either.
-
-_**Full-disclosure:** Nokia has been both a key customer and a software
-vendor in my company's Qt consulting business, when Qt was with Nokia.
-More recently, my apps are being distributed through the Nokia Store._
 

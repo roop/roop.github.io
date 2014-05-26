@@ -13,4 +13,8 @@ layout: default
 
   {{ content }}
 
+  {% if page.postscript %}
+    <div class="post-postscript">{{ page.postscript | markdownify }}</div>
+  {% endif %}
+
 </article>

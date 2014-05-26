@@ -5,8 +5,7 @@ tagline: "As a user and as a developer"
 description: "As Symbian phones are about to stop shipping this summer, a look back at the last few years of the OS, and some opinions on why it couldn't make it."
 category: posts
 tags: [symbian, nokia]
-postscript: "_This post is based on my inputs to TechCrunch for
-their [article on Symbian](http://techcrunch.com/2013/06/13/rip-symbian/)._"
+postscript: "This post is based on my inputs to TechCrunch for their [article on Symbian](http://techcrunch.com/2013/06/13/rip-symbian/)."
 ---
 
 My first go at developing on Symbian was with Symbian C++, and
