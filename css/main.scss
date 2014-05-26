@@ -288,6 +288,27 @@ span.post-date {
     margin: 0;
 }
 
+article {
+    img {
+        max-width: 100%;
+        height: auto;
+        border-width: 0;
+        vertical-align: middle;
+        -ms-interpolation-mode: bicubic;
+    }
+    figure {
+        width: 100%;
+        border-bottom: 1px dotted $line_gray;
+        text-align: center;
+        margin-bottom: 2.5em;
+    }
+    figcaption {
+        font-family: $header_fonts;
+        font-weight: 300;
+        font-size: 80%;
+    }
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
