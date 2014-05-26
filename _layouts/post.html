@@ -1,20 +1,16 @@
 ---
-layout: default
+layout: page
 ---
 
-<article>
+<h1>{{ page.title }}</h1>
+<h2>{{ page.tagline }}</h2>
 
-  <h1>{{ page.title }}</h1>
-  <h2>{{ page.tagline }}</h2>
+<p>
+  <span class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B&nbsp;%d,&nbsp;%Y" }}</time>{% if page.modified %} (Modified <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B&nbsp;%d,&nbsp;%Y" }}</time>){% endif %}</span>
+</p>
 
-  <p>
-    <span class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B&nbsp;%d,&nbsp;%Y" }}</time>{% if page.modified %} (Modified <time datetime="{{ page.modified | date: "%Y-%m-%d" }}" itemprop="dateModified">{{ page.modified | date: "%B&nbsp;%d,&nbsp;%Y" }}</time>){% endif %}</span>
-  </p>
+{{ content }}
 
-  {{ content }}
-
-  {% if page.postscript %}
-    <div class="post-postscript">{{ page.postscript | markdownify }}</div>
-  {% endif %}
-
-</article>
+{% if page.postscript %}
+  <div class="post-postscript">{{ page.postscript | markdownify }}</div>
+{% endif %}
