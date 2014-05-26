@@ -78,6 +78,22 @@ body {
     background-color: $white;
 }
 
+article {
+    color: $content_dark_gray;
+    a {
+        color: $link_blue;
+        text-decoration: none;
+        border-bottom: 1px dotted $link_underline_gray;
+    }
+    a:hover {
+        text-decoration: none;
+        border-bottom: 1px solid $link_underline_gray;
+    }
+    a:visited {
+        color: lighten($link_blue, 10%);
+    }
+}
+
 /* ==========================================================================
     Structure
    ========================================================================== */
