@@ -155,15 +155,8 @@ header.site-nav, header.blog-nav {
     }
 }
 
-/* ========================
-    INTERMEDIATE: IE Fixes
-   ======================== */
-
-.oldie nav a {
-    margin: 0 0.7%;
-}
 /* ==============
-    MOBILE: Main
+   Main content
    ============== */
 
 .main {
@@ -187,14 +180,6 @@ header.site-nav, header.blog-nav {
         line-height: 1.15;
         color: lighten($line_gray, 5%);
     }
-}
-
-/* ===============
-    ALL: IE Fixes
-   =============== */
-
-.ie7 .title {
-    padding-top: 20px;
 }
 
 /* ==========================================================================
@@ -384,6 +369,17 @@ span.post-date {
 
 .clearfix {
     *zoom: 1;
+}
+
+
+// IE Fixes
+
+.oldie nav a {
+    margin: 0 0.7%;
+}
+
+.ie7 .title {
+    padding-top: 20px;
 }
 
 /* ==========================================================================
