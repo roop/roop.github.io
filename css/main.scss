@@ -98,11 +98,6 @@ article {
     Structure
    ========================================================================== */
 
-.site-navigation-narrow-screen {
-    margin-top: 10px;
-    padding-top: 2em;
-}
-
 .header-container {
     background: $white;
     border-top: 10px solid $blue_gray;
@@ -117,25 +112,17 @@ article {
     Navigation menu
    ================ */
 
-nav {
-    a {
-        text-decoration: none;
-        color: $headline_gray;
-    }
-
-    a:visited {
-        color: lighten($headline_gray, 20%);
-    }
-
-    a:hover {
-        text-decoration: underline;
-        color: darken($headline_gray, 30%);
-    }
+.site-nav {
+    margin-top: 10px;
+    padding-top: 2em;
 }
 
-// For narrow screens (i.e. mobiles)
+.blog-nav {
+    margin-bottom: 10px;
+    padding-bottom: 2em;
+}
 
-header.site-navigation-narrow-screen {
+header.site-nav, header.blog-nav {
     nav {
         margin: auto;
         text-align: center;
@@ -157,31 +144,13 @@ header.site-navigation-narrow-screen {
         a {
             padding: 0 1em;
             text-align: center;
-        }
-    }
-}
-
-// For wide screens (i.e. tablets, desktops)
-
-header.site-navigation-wide-screen {
-    display: none; // This is overridden later only for wide-screens
-    nav {
-        width: 70%;
-
-        h3 {
-            text-align: left;
-            border-bottom: 1px solid $line_gray;
-            margin-bottom: 0.5em;
+            text-decoration: none;
+            color: $headline_gray;
         }
 
-        ul li {
-            display: block;
-        }
-
-        ul {
-            margin: 0 0 2em 0.2em;
-            padding: 0;
-            text-align: right;
+        a:hover {
+            text-decoration: underline;
+            color: darken($headline_gray, 30%);
         }
     }
 }
@@ -339,21 +308,6 @@ span.post-date {
    ========================================================================== */
 
 @media only screen and (min-width: 720px) {
-
-   // Navigation menu
-
-    header.site-navigation-wide-screen {
-        display: block;
-        float: left;
-        margin: 2em 5% 0 0;
-        width: 23%;
-    }
-
-    header.site-navigation-narrow-screen {
-        display: none;
-    }
-
-   // Main
 
     .main {
         width: 85%;
