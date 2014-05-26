@@ -188,13 +188,13 @@ header.site-nav, header.blog-nav {
 
 @import 'init';
 
-@include font-face-woff('Charter', 'fonts/Charter', 'regular', normal, normal);
-@include font-face-woff('Charter', 'fonts/Charter', 'bold', bold, normal);
-@include font-face-woff('Charter', 'fonts/Charter', 'italic', normal, italic);
-@include font-face-woff('Fira Sans', '//brick.a.ssl.fastly.net/fonts/firasans', '300', 300, normal);
-@include font-face-woff('Fira Sans', '//brick.a.ssl.fastly.net/fonts/firasans', '400', 400, normal);
-@include font-face-woff('Fira Sans', '//brick.a.ssl.fastly.net/fonts/firasans', '500', 500, normal);
-@include font-face-woff('Source Code Pro', '//brick.a.ssl.fastly.net/fonts/sourcecodepro', '400', 400, normal);
+@include font-face-woff('Charter', 'Charter-Roman', 'fonts/Charter', 'regular', normal, normal);
+@include font-face-woff('Charter', 'Charter-Bold', 'fonts/Charter', 'bold', bold, normal);
+@include font-face-woff('Charter', 'Charter-Italic', 'fonts/Charter', 'italic', normal, italic);
+@include font-face-woff('Fira Sans', 'Fira Sans OT Light', '//brick.a.ssl.fastly.net/fonts/firasans', '300', 300, normal);
+@include font-face-woff('Fira Sans', 'Fira Sans OT', '//brick.a.ssl.fastly.net/fonts/firasans', '400', 400, normal);
+@include font-face-woff('Fira Sans', 'Fira Sans OT Medium', '//brick.a.ssl.fastly.net/fonts/firasans', '500', 500, normal);
+@include font-face-woff('Source Code Pro', 'Source Code Pro Regular', '//brick.a.ssl.fastly.net/fonts/sourcecodepro', '400', 400, normal);
 
 $header_fonts: 'Fira Sans', 'Verdana', sans-serif;
 $content_fonts: 'Charter', 'Georgia', serif;
