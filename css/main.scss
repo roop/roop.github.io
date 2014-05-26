@@ -317,6 +317,30 @@ blockquote {
     color: $content_light_gray;
 }
 
+code, tt {
+    margin: 0 2px;
+    padding: 0 5px;
+    white-space: nowrap;
+    border: 1px solid #eaeaea;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+}
+
+pre {
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+    overflow: auto;
+    padding: 6px 10px;
+    border-radius: 3px;
+    code {
+        margin: 0;
+        padding: 0;
+        white-space: pre;
+        border: none;
+        background: transparent;
+    }
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
