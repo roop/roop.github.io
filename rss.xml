@@ -1,0 +1,31 @@
+---
+layout: none
+permalink: /rss.xml
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+
+    <title>Roopesh Chander</title>
+    <link>http://www.roopc.net/</link>
+    <description>roopc.net</description>
+
+    <generator>Jekyll</generator>
+    <language>en-us</language>
+    <copyright>Copyright 2013-{{ site.time | date: '%Y' }} Roopesh Chander</copyright>
+    <webMaster>roop@roopc.net</webMaster>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+
+    {% for post in site.categories.posts limit:5 %}
+    <item>
+        <title>{{ post.title }}</title>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <description>{{ post.content | xml_escape }}</description>
+        <guid>{{ post.id }}</guid>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+    </item>
+    {% endfor %}
+ 
+</channel>
+</rss>
