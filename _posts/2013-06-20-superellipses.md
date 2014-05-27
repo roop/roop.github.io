@@ -5,6 +5,9 @@ description: "No, of course not. It's <del>still rounded rects</del> <ins>someth
 tagline: "No, of course not."
 category: posts
 tags: [ios7]
+
+redirect_from:
+  - /posts/superellipses/
 ---
 
 [Mark Edwards][marcedwards superellipse tweet] and 

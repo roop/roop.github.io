@@ -4,6 +4,9 @@ title: "iOS 7: Flat or not?"
 description: "The predominant opinion after the iOS 7 announcement seems to be that iOS 7 looks flat, but really, it doesn't."
 category: posts
 tags: [ios7]
+
+redirect_from:
+  - /posts/ios7-flat-or-not/
 ---
 
 The predominant opinion seems to be that the iOS 7 look is flat, or

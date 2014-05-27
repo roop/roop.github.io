@@ -19,3 +19,5 @@ kramdown:
 
 highlighter: 'pygments'
 
+gems:
+  - jekyll-redirect-from

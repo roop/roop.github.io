@@ -8,6 +8,8 @@ tags: [nokia, meego, microsoft]
 postscript: "Full-disclosure: Nokia has been both a key customer and a software vendor in my company's Qt consulting business, when Qt was with Nokia. More recently, my apps were being distributed through the Nokia Store."
 readthisnext: /posts/2013/symbian-experience
 
+redirect_from:
+  - /posts/looking-back-burning-platform-memo/
 ---
 
 Microsoft will be [acquiring] the devices business of Nokia early next

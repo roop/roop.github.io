@@ -6,6 +6,9 @@ description: "As Symbian phones are about to stop shipping this summer, a look b
 category: posts
 tags: [symbian, nokia]
 postscript: "This post is based on my inputs to TechCrunch for their [article on Symbian](http://techcrunch.com/2013/06/13/rip-symbian/)."
+
+redirect_from:
+  - /posts/symbian-experience/
 ---
 
 My first go at developing on Symbian was with Symbian C++, and
