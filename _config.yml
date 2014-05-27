@@ -23,3 +23,5 @@ highlighter: 'pygments'
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+
+timezone: 'Asia/Kolkata'
