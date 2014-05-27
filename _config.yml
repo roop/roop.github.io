@@ -9,10 +9,13 @@ domain:           localhost:8082
 
 permalink:   /:categories/:year/:title
 
-markdown:    'redcarpet'
+markdown:    'kramdown'
+kramdown:
+    input: GFM
 
-redcarpet:
-    extensions: [ 'smart', 'no_intra_emphasis', 'autolink' ]
+# markdown:    'redcarpet'
+# redcarpet:
+#     extensions: [ 'smart', 'no_intra_emphasis', 'autolink' ]
 
 highlighter: 'pygments'
 
