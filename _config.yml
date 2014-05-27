@@ -1,11 +1,11 @@
 name:           roopc.net
 
-url:            http://roopc.net
-domain:         roopc.net
+url:            http://roop.github.io
+domain:         roop.github.io
 
 # Comment out when deploying
-url:              http://localhost:8082
-domain:           localhost:8082
+# url:              http://localhost:8082
+# domain:           localhost:8082
 
 permalink:   /:categories/:year/:title
 
