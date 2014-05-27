@@ -277,6 +277,18 @@ article {
     }
 }
 
+section {
+    margin: 0 0 3em 0;
+    h2 {
+        text-transform: none;
+        font-weight: 300;
+        border-bottom: 1px solid $line_gray;
+    }
+    h3 {
+        font-weight: 500;
+    }
+}
+
 span.post-date {
     font-family: $header_fonts;
     font-weight: 300;
