@@ -14,3 +14,19 @@ layout: page
 {% if page.postscript %}
   <div class="post-postscript">{{ page.postscript | markdownify }}</div>
 {% endif %}
+
+{% if page.readthisnext %}
+  {% for post in site.categories.posts %}
+    {% if post.id == page.readthisnext %}
+      {% capture readthisnext_url %}{{ site.url }}{{ post.url }}{% endcapture %}
+      {% capture readthisnext_title %}{{ post.title }}{% endcapture %}
+    {% endif %}
+  {% endfor %}
+  {% if readthisnext_url %}
+  <div class="post-readthisnext">
+  <p>If you liked this post, you might also like:
+  <a href="{{ readthisnext_url }}">{{ readthisnext_title }}</a>
+  </p>
+  </div>
+  {% endif %}
+{% endif %}

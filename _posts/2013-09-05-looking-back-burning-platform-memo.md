@@ -6,6 +6,7 @@ description: "In which I try to guess the reasoning behind Nokia picking Windows
 category: posts
 tags: [nokia, meego, microsoft]
 postscript: "Full-disclosure: Nokia has been both a key customer and a software vendor in my company's Qt consulting business, when Qt was with Nokia. More recently, my apps were being distributed through the Nokia Store."
+readthisnext: /posts/2013/symbian-experience
 
 ---
 
