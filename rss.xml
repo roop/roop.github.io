@@ -21,9 +21,23 @@ permalink: /rss.xml
     <item>
         <title>{{ post.title }}</title>
         <link>{{ site.url }}{{ post.url }}</link>
-        <description>{{ post.content | xml_escape }}</description>
         <guid>{{ post.id }}</guid>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <description>
+        <![CDATA[
+        {{ post.content }}
+        {% if post.postscript %}<aside>{{ post.postscript | markdownify }}</aside>{% endif %}
+        {% if post.readthisnext %}
+          {% for p in site.categories.posts %}
+            {% if p.id == post.readthisnext %}
+              {% capture readthisnext_url %}{{ site.url }}{{ p.url }}{% endcapture %}
+              {% capture readthisnext_title %}{{ p.title }}{% endcapture %}
+            {% endif %}
+          {% endfor %}
+          {% if readthisnext_url %}<aside><p>If you liked this post, you might also like: <a href="{{ readthisnext_url }}">{{ readthisnext_title }}</a></p></aside>{% endif %}
+        {% endif %}
+        ]]>
+        </description>
     </item>
     {% endfor %}
  
