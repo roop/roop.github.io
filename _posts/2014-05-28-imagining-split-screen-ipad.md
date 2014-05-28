@@ -51,9 +51,9 @@ Before iOS 7, the status bar had a fixed look and was visually separated
 from the content.
 
 <figure>
-<a href="/images/imagining-split-screen-ipad/ios5statusbar.png"
+<a href="{{ site.url }}/images/imagining-split-screen-ipad/ios5statusbar.png"
      title="Status bar before iOS 7"><img
-     src="/images/imagining-split-screen-ipad/ios5statusbar.png" /></a>
+     src="{{ site.url }}/images/imagining-split-screen-ipad/ios5statusbar.png" /></a>
 <figcaption>
 Status bar for iPad Safari before iOS 7.
 </figcaption>
@@ -65,13 +65,13 @@ visibility and style for the status bar, based on the look of what lies
 next to the status bar.
 
 <figure>
-<a href="/images/imagining-split-screen-ipad/ios7statusbar.png"
+<a href="{{ site.url }}/images/imagining-split-screen-ipad/ios7statusbar.png"
      title="Light status bar in iOS 7"><img
-     src="/images/imagining-split-screen-ipad/ios7statusbar.png"
+     src="{{ site.url }}/images/imagining-split-screen-ipad/ios7statusbar.png"
      style="margin-top: 1.5em" /></a>
-<a href="/images/imagining-split-screen-ipad/ios7statusbar_dark.png"
+<a href="{{ site.url }}/images/imagining-split-screen-ipad/ios7statusbar_dark.png"
      title="Dark status bar in iOS 7"><img
-     src="/images/imagining-split-screen-ipad/ios7statusbar_dark.png"
+     src="{{ site.url }}/images/imagining-split-screen-ipad/ios7statusbar_dark.png"
      style="margin-top: 1.5em" /></a>
 <figcaption>
 Status bar for iPad Safari in iOS 7. Default (top) and in private mode
@@ -93,9 +93,9 @@ The mockups I have seen all seem to assume the second method and feature an
 un-iOS-7-ish visually separated status bar.
 
 <figure>
-<a href="/images/imagining-split-screen-ipad/ios8_mockup_9to5mac.png"
+<a href="{{ site.url }}/images/imagining-split-screen-ipad/ios8_mockup_9to5mac.png"
      title="iOS 8 mockup by Michael Steeber (9to5Mac)"><img
-     src="/images/imagining-split-screen-ipad/ios8_mockup_9to5mac.png"
+     src="{{ site.url }}/images/imagining-split-screen-ipad/ios8_mockup_9to5mac.png"
      style="margin-top: 1em" /></a>
 <figcaption>
 Mockup for iOS 8 split-screen multitasking by Michael Steeber
@@ -104,9 +104,9 @@ Mockup for iOS 8 split-screen multitasking by Michael Steeber
 </figure>
 
 <figure>
-<a href="/images/imagining-split-screen-ipad/ios8_mockup_sambeckett.png"
+<a href="{{ site.url }}/images/imagining-split-screen-ipad/ios8_mockup_sambeckett.png"
      title="iOS 8 mockup by Sam Beckett"><img
-     src="/images/imagining-split-screen-ipad/ios8_mockup_sambeckett.png"
+     src="{{ site.url }}/images/imagining-split-screen-ipad/ios8_mockup_sambeckett.png"
      style="margin-top: 1em" /></a>
 <figcaption>
 From “iOS 8 Concept - Split Screen multitasking” by Sam Beckett
@@ -128,8 +128,8 @@ left-half of the screen for reference, like in this mockup by
 9to5Mac:
 
 <figure>
-<a href="/images/imagining-split-screen-ipad/safari_pages_9to5mac_1.png">
-<img src="/images/imagining-split-screen-ipad/safari_pages_9to5mac_1.png"
+<a href="{{ site.url }}/images/imagining-split-screen-ipad/safari_pages_9to5mac_1.png">
+<img src="{{ site.url }}/images/imagining-split-screen-ipad/safari_pages_9to5mac_1.png"
      title="Safari + Pages"
      />
 </a>
@@ -138,8 +138,8 @@ left-half of the screen for reference, like in this mockup by
 But when we're typing, it's going to look more like this:
 
 <figure>
-<a href="/images/imagining-split-screen-ipad/safari_pages_9to5mac_2.png">
-<img src="/images/imagining-split-screen-ipad/safari_pages_9to5mac_2.png"
+<a href="{{ site.url }}/images/imagining-split-screen-ipad/safari_pages_9to5mac_2.png">
+<img src="{{ site.url }}/images/imagining-split-screen-ipad/safari_pages_9to5mac_2.png"
      title="Safari + Pages"
      />
 </a>

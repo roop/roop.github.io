@@ -31,7 +31,7 @@ about position and size. Let's consider only
 supercircles centered at the origin and having a unit radius (i.e. width
 is 2 units). The general equation for such supercircles is:
 
-<img src="/images/superellipses/general_supercircle_equation.png"
+<img src="{{ site.url }}/images/superellipses/general_supercircle_equation.png"
 title="General supercircle equation" />
 
 At `n=2`, it's just a plain old circle. As `n` increases, the shape
@@ -39,7 +39,7 @@ becomes more and more like a square (hence the name squircle at `n=4`).
 
 <figure>
 <img
-src="/images/superellipses/supercircles_at_different_n.png"
+src="{{ site.url }}/images/superellipses/supercircles_at_different_n.png"
 title="General supercircle equation" />
 <figcaption>
 Supercircles at n=2, n=3, n=4, n=5, n=6 and n=7. As n increases, the shape expands.
@@ -56,9 +56,9 @@ plot of the superellipse formula that Mark Edwards
 that it doesn't quite match up exactly.
 
 <figure>
-<a href="/images/superellipses/ios7_icon_vs_squircle.png">
+<a href="{{ site.url }}/images/superellipses/ios7_icon_vs_squircle.png">
     <img
-    src="/images/superellipses/ios7_icon_vs_squircle.png"
+    src="{{ site.url }}/images/superellipses/ios7_icon_vs_squircle.png"
     title="iOS 7 Mail icon vs Supercircle" />
 </a>
 <figcaption>
@@ -73,9 +73,9 @@ with a greater rounding radius than an iOS 6 icon.
 roundrect, but it still doesn't match _exactly_.)
 
 <figure>
-<a href="/images/superellipses/ios7_icon_vs_roundrect.png">
+<a href="{{ site.url }}/images/superellipses/ios7_icon_vs_roundrect.png">
     <img
-    src="/images/superellipses/ios7_icon_vs_roundrect.png"
+    src="{{ site.url }}/images/superellipses/ios7_icon_vs_roundrect.png"
     title="iOS 7 Mail icon vs Rounded Rect" />
 </a>
 <figcaption>
@@ -88,9 +88,9 @@ on the icon. That's how close the squircle is to a rounded rect.
 
 <figure>
 <a
-href="/images/superellipses/ios7_icon_vs_roundrect_vs_squircle_closeup.png">
+href="{{ site.url }}/images/superellipses/ios7_icon_vs_roundrect_vs_squircle_closeup.png">
     <img
-    src="/images/superellipses/ios7_icon_vs_roundrect_vs_squircle_closeup.png"
+    src="{{ site.url }}/images/superellipses/ios7_icon_vs_roundrect_vs_squircle_closeup.png"
     title="iOS 7 Mail icon vs Rounded Rect vs Squircle" />
 </a>
 <figcaption>
