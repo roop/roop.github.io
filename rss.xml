@@ -3,7 +3,7 @@ layout: none
 permalink: /rss.xml
 ---
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 
     <title>Roopesh Chander</title>
@@ -16,6 +16,8 @@ permalink: /rss.xml
     <webMaster>roop@roopc.net</webMaster>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+
+    <atom:link href="http://roopc.net/rss.xml" rel="self" type="application/rss+xml" />
 
     {% for post in site.categories.posts limit:5 %}
     <item>
