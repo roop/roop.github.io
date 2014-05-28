@@ -38,9 +38,11 @@ At `n=2`, it's just a plain old circle. As `n` increases, the shape
 becomes more and more like a square (hence the name squircle at `n=4`).
 
 <figure>
-<img
-src="{{ site.url }}/images/superellipses/supercircles_at_different_n.png"
-title="General supercircle equation" />
+<a href="{{ site.url }}/images/superellipses/supercircles_at_different_n.png">
+  <img
+  src="{{ site.url }}/images/superellipses/supercircles_at_different_n.png"
+  title="General supercircle equation" />
+</a>
 <figcaption>
 Supercircles at n=2, n=3, n=4, n=5, n=6 and n=7. As n increases, the shape expands.
 </figcaption>
