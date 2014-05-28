@@ -13,7 +13,7 @@ permalink: /rss.xml
     <generator>Jekyll</generator>
     <language>en-us</language>
     <copyright>Copyright 2013-{{ site.time | date: '%Y' }} Roopesh Chander</copyright>
-    <webMaster>roop@roopc.net</webMaster>
+    <webMaster>roop@roopc.net (Roopesh Chander)</webMaster>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 
