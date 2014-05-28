@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /index.html
-title: "Latest blog posts"
+title: "roopc.net"
 ---
 
 <div class="post-index-container">
@@ -10,7 +10,7 @@ title: "Latest blog posts"
   <p>{% include roop-intro.html %}</p>
   </aside>
 
-  <header class="post-index-header"><h1>{{ page.title }}</h1></header>
+  <header class="post-index-header"><h1>Latest blog posts</h1></header>
 
   {% for post in site.categories.posts limit:3 %}
   <div class="post-index">
