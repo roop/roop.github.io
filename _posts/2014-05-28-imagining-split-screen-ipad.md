@@ -7,10 +7,6 @@ description: "What all would Apple have to keep in mind
 category: posts
 tags: [ios, ios7, multitasking, split-screen]
 postscript: "This post was discussed in [Daring Fireball](http://daringfireball.net/linked/2014/05/28/split-screen-ipad),&nbsp; [iOS Dev Weekly](http://iosdevweekly.com/issues/148#code)&nbsp; and [Reddit](http://www.reddit.com/r/iOSProgramming/comments/26rv5b/imagining_developing_for_a_splitscreen_ipad/)."
-
-read-next:
-  url: http://roopc.net/posts/superellipses/
-  title: "Superellipses?"
 ---
 
 Given [the rumour] that Apple is considering split-screen multitasking
