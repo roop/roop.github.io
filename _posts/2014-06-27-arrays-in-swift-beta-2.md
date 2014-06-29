@@ -5,6 +5,9 @@ tagline: "Problem, solution and workaround"
 description: "What's the problem with Arrays in Swift (Beta 2), and how do we
               get around it?"
 category: posts
+postscript: "Updated 29/Jun/2014: Appending doesn't always trigger
+             a realloc - it can only potentially do so. Added direct links
+             to Github Gists (to be more RSS-reader-friendly)."
 ---
 
 We know that Arrays in Swift [behave][weird1] [a little][weird2]
@@ -188,6 +191,8 @@ Diving into code:
 
 <script src="https://gist.github.com/roop/4f1af9b557d4ff39aabf.js"></script>
 
+[(GitHub Gist)](https://gist.github.com/roop/4f1af9b557d4ff39aabf)
+
 _Note: This seems to work in standalone Swift scripts and
 XCode projects, but not in the Playground._
 
@@ -242,8 +247,8 @@ For an Array, this means that the buffer pointer cannot be modified.
 
 Therefore, the following operations are disabled on `let` Arrays:
 
- 1. Appending elements requires a realloc, which can change the buffer
-    pointer
+ 1. Appending elements can potentially require a realloc, which can
+    change the buffer pointer
  2. `unshare()`, which can change the buffer pointer
  3. Replacing a range of items with some items (either using
     `replaceRange` or like `a[1..5] = [42, 43]`), which can potentially
@@ -275,6 +280,8 @@ about to change the value at an index.
 
 <script src="https://gist.github.com/roop/92bac4f644d2259d91fd.js"></script>
 
+[(GitHub Gist)](https://gist.github.com/roop/92bac4f644d2259d91fd)
+
 _Note: This workaround seems to work in standalone Swift scripts and
 XCode projects, but not in the Playground._
 
@@ -289,7 +296,7 @@ without `unshare()`-ing it. For that, we'll have to wait for the fix
 from Apple.
 
 If you have any feedback on my conclusions about Swift Arrays, I'd love
-to discuss on Twitter at [@roopeshchander].
+to discuss on Twitter ([@roopeshchander]).
 
 [@roopeshchander]: http://www.twitter.com/roopeshchander
 
