@@ -7,18 +7,20 @@ description: "What's the problem with Arrays in Swift (Beta 2), and how do we
 category: posts
 postscript: "Updated 29/Jun/2014: Appending doesn't always trigger
              a realloc - it can only potentially do so. Added direct links
-             to Github Gists (to be more RSS-reader-friendly)."
+             to Github Gists (to be more RSS-reader-friendly). <br/>
+             Update 17/Jul/2014: Array semantics are fixed in Beta 3."
 ---
 
 We know that Arrays in Swift [behave][weird1] [a little][weird2]
 [weirdly][weird3], and also that [Apple will fix this going
-forward][fix1].
+forward][fix1]. (**Update:** Apple has [fixed this][beta3] in Beta 3.)
 
 [weird1]: https://github.com/andrewsardone/swift-playground/issues/2
 [weird2]: http://blog.human-friendly.com/swift-arrays-the-bugs-the-bad-and-the-ugly-incomplete
 [weird3]: https://medium.com/@owensd/swift-arrays-a8f1f91bed78
 
 [fix1]: https://twitter.com/brentdax/status/479690847932256256
+[beta3]: /posts/2014/swift-beta-3/
 
 In this post, we'll see:
 
