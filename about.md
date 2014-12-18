@@ -12,9 +12,9 @@ When creating software, I design the user experience,
 write the code and create a lot of the graphics. I take the
 effort to make it great software.
 
-Presently, I'm working on my first iPad application. I am also
-writing and implementing a parser specfication for Markdown
-called [vfmd][].
+Presently, I'm working on my first iPad application. Earlier this year,
+I wrote and implemented a parser specfication for Markdown called
+[vfmd][].
 
 In the past, I have worked with Nokia, KDE, Hyves and other customers
 as part of [a Qt consultancy company]. During that time, I created
