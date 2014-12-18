@@ -12,11 +12,11 @@ permalink: /projects/index.html
 vfmd is a variant of John Gruber's [Markdown] with a unambiguous parser
 specification of the syntax.
 
-**Website:** [vfmd.github.io]
+**Website:** [www.vfmd.org]
 <hr />
 
 [Markdown]: http://www.daringfireball.net/projects/markdown "Markdown"
-[vfmd.github.io]: http://vfmd.github.io/ "vfmd: Markdown with a spec"
+[www.vfmd.org]: http://www.vfmd.org/ "vfmd: Markdown with a spec"
 
 </section>
 <section markdown="1">
