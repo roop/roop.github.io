@@ -62,7 +62,7 @@ To make use of it:
      and enable a Shared Folder called 'Build' as the build location
      (This is also the first step in [Andy Matuschak's method][tweet by
      Andy Matuschak])
-  2. Save [this gist][makemake_gist] as `makemake.pl` in you project's
+  2. Save [this gist][makemake_gist] as `makemake.pl` in your project's
      root folder
   3. Edit it to populate the app name and swift source file paths
   4. Run `perl ./makemake.pl`. This creates a Makefile.
