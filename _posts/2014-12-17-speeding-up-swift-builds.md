@@ -81,3 +81,8 @@ Comments, corrections welcome on [the gist][makemake_gist] or through [Twitter].
 
 [makemake_gist]: https://gist.github.com/roop/ec05db594fae8fd2a8eb
 [Twitter]: https://twitter.com/roopeshchander/
+
+**Update 02/Mar/2015:** Swift 1.2 addresses this issue head-on, but I
+haven't adopted that yet - I'm not sure Swift 1.2 will be out of beta
+before I ship the app I'm working on, so I'm sticking with Swift 1.1
+for now and making incremental builds from the command-line.
