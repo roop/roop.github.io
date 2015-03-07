@@ -76,6 +76,13 @@ article {
   width: 90%;
   margin: 0 5%; }
 
+.shameless-plug-container {
+  width: 100%;
+  margin: 0 0 1em 0;
+  background-color: #f1f2f3;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc; }
+
 /* ================
     Navigation menu
    ================ */
@@ -291,6 +298,12 @@ pre {
   font-weight: 300;
   font-size: 85%; }
 
+.shameless-plug {
+  font-family: "Fira Sans", "Verdana", sans-serif;
+  font-weight: 400;
+  font-size: 80%;
+  margin: -0.5em 0; }
+
 .huge {
   font-size: 300%; }
 
@@ -349,6 +362,10 @@ aside.roop-intro {
 
   .main article, .post-index-container {
     margin: 1em auto 0 auto;
+    width: 82%; }
+
+  .shameless-plug {
+    margin: 0 auto 0 auto;
     width: 82%; }
 
   html {
