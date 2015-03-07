@@ -7,6 +7,13 @@ permalink: /projects/index.html
 
 <h2>Projects</h2>
 
+<h3>Bisect</h3>
+
+Bisect is a split-screen writing app for the iPad.
+
+**Website:** [bisectapp.com](http://bisectapp.com "Bisect for iPad")
+<hr />
+
 <h3>vfmd</h3>
 
 vfmd is a variant of John Gruber's [Markdown] with a unambiguous parser
