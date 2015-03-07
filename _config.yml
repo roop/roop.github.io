@@ -25,3 +25,6 @@ gems:
   - jekyll-redirect-from
 
 timezone: 'Asia/Kolkata'
+
+popular-posts:
+  - /posts/2014/imagining-split-screen-ipad
