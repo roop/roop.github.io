@@ -11,7 +11,9 @@ Brent Simmons wrote about [using KVO in a crash-proof way][inessential_kvo]. The
 
 For the most part, my own KVO code looks like Brent's: I don't use bindings [^1] and I use Swift's `didSet` to react to changes in `self`'s properties, which is a lot like Brent's use of a custom setter.
 
-Where my KVO code differs is in the observation part. If I were to use Cocoa's KVO API, I'm forced to spread out the observation-related code across multiple methods:
+Where my KVO code differs is in the observation part.
+
+If I were to use Cocoa's KVO API, I'm forced to spread out the observation-related code across multiple methods:
 
   - Starting the observation, typically in `init`
   - Reacting to the property change, in `observeValueForKeyPath`
