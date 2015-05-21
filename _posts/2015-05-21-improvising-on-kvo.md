@@ -19,7 +19,7 @@ If I were to use Cocoa's KVO API, I'm forced to spread out the observation-relat
   - Reacting to the property change, in `observeValueForKeyPath`
   - Stopping the observation, typically in `deinit` (or `dealloc` in Objective-C)
 
-I find that having to scatter this code across multiple methods makes code harder to read, and therefore harder to maintain.
+I find that having to scatter this code across multiple methods (and possibly intertwined with code for observing other properties) makes code harder to read, and therefore harder to maintain.
 
 I prefer to keep the code related to observation of a particular property within a single method. To achieve this, I use a thin block-based abstraction on top of KVO, which is a little different from the other target-selector-based abstractions I have encountered, namely Daniel Eggert's [KeyValueObserver][objc_io_kvo_code] (with a [nice explanation in objc.io#7][objc_io_kvo]) and Raizlabs' [RZDataBinding][].
 
