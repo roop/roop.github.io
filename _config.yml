@@ -19,6 +19,8 @@ kramdown:
 # redcarpet:
 #     extensions: [ 'smart', 'no_intra_emphasis', 'autolink' ]
 
+highlighter: rouge
+
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
