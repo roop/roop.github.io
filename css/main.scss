@@ -204,11 +204,11 @@ header.site-nav, header.blog-nav {
 @include font-face-woff('Fira Sans', 'Fira Sans OT Light', '//brick.a.ssl.fastly.net/fonts/firasans', '300', 300, normal);
 @include font-face-woff('Fira Sans', 'Fira Sans OT', '//brick.a.ssl.fastly.net/fonts/firasans', '400', 400, normal);
 @include font-face-woff('Fira Sans', 'Fira Sans OT Medium', '//brick.a.ssl.fastly.net/fonts/firasans', '500', 500, normal);
-@include font-face-woff('Source Code Pro', 'Source Code Pro Regular', '//brick.a.ssl.fastly.net/fonts/sourcecodepro', '400', 400, normal);
+@include font-face-woff('Inconsolata', 'Inconsolata', '//brick.a.ssl.fastly.net/fonts/inconsolata', '500', 500, normal);
 
 $header_fonts: 'Fira Sans', 'Verdana', sans-serif;
 $content_fonts: 'Charter', 'Georgia', serif;
-$code_fonts: 'Source Code Pro', 'Courier New', monospace;
+$code_fonts: 'Inconsolata', 'Courier New', monospace;
 
 body {
     font-family: $content_fonts;
