@@ -13,12 +13,11 @@ markdown:    'kramdown'
 kramdown:
     input: GFM
     hard_wrap: false
+    syntax_highlighter: rouge
 
 # markdown:    'redcarpet'
 # redcarpet:
 #     extensions: [ 'smart', 'no_intra_emphasis', 'autolink' ]
-
-highlighter: 'pygments'
 
 gems:
   - jekyll-sitemap
