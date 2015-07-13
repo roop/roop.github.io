@@ -373,7 +373,6 @@ pre {
 
 .shameless-plug {
     font-family: $header_fonts;
-    font-weight: 400;
     font-size: 80%;
     margin: -0.5em 0;
 }
@@ -444,6 +443,48 @@ aside.roop-intro {
     }
 }
 
+// Newsletter sign-up form
+
+form {
+    margin: 0.5em 0 -1em 0;
+    text-align: center;
+    input {
+        border: 1px solid $line_gray;
+        border-radius: 5px;
+        background-color: white;
+        height: 100%;
+        margin-right: 0;
+        outline: none;
+        font-family: $header_fonts;
+        font-size: 1em;
+        height: 2em;
+        text-align: center;
+        vertical-align: center;
+        min-width: 250px;
+    }
+    input:focus {
+        outline: none;
+    }
+    button {
+        border: 1px solid $blue_gray;
+        border-radius: 5px;
+        background-color: #fff;
+        color: $blue_gray;
+        height: 100%;
+        margin-left: 0;
+        outline: none;
+        font-family: $header_fonts;
+        font-size: 1.1em;
+        padding: 5px 20px 5px 20px;
+        text-align: center;
+        vertical-align: center;
+        font-weight: 300;
+    }
+    button:focus {
+        outline: none;
+    }
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -463,6 +504,16 @@ aside.roop-intro {
     .shameless-plug {
         margin: 0 auto 0 auto;
         width: 82%;
+        .center {
+            text-align: center;
+        }
+        form {
+            p {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
     }
 
     html {

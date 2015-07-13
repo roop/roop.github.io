@@ -47,7 +47,11 @@
         </div> <!-- #main-container -->
 
         {% if page.categories contains 'posts' %}
-        {% include shameless-plug.html %}
+            {% if page.plug contains 'all-in-code' %}
+                {% include allincode-newsletter-signup.html %}
+            {% else %}
+                {% include shameless-plug.html %}
+            {% endif %}
         {% include blog-nav.html %}
         {% endif %}
 
