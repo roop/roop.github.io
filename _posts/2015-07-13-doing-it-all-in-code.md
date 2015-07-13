@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Doing it all in code"
-description: "I'm one of those developers who like to write down the UI
+description: "I'm one of those developers who like to specify the app's UI
               in code. I'd like to show you how my setup looks like."
 tagline: "Programmatic UI in iOS"
 category: posts
 plug: all-in-code
 ---
 
-I'm one of those developers who likes to specify the layout of an app's
+I'm one of those developers who like to specify the layout of an app's
 UI in source code. I use Interface Builder as well, but to a much lesser
 extent.  I think arguments can be made for and against both methods, and
 it really comes down to personal preferences, priorities and workflows.
