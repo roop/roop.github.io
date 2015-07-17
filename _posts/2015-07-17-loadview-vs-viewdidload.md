@@ -41,7 +41,7 @@ override func viewDidLoad() {
 }
 {% endhighlight %}
 
-[Here](https://github.com/marcoarment/BugshotKit/blob/e982a2adadf96f371f9a6d72b4fa7efe6a99bdc1/BugshotKit/BSKScreenshotViewController.m#L108)
+[Here](https://github.com/marcoarment/BugshotKit/blob/e982a2adadf96f371f9a6d72b4fa7efe6a99bdc1/BugshotKit/BSKMainViewController.m#L51)
 is an example of this strategy.
 
 If we setup the view hierarchy in `viewDidLoad` and we want a custom
