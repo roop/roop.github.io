@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "<code>loadView</code> vs <code>viewDidLoad</code>"
+title_text: "loadView vs viewDidLoad"
 description: "What is the best override point to setup your view hierarchy programatically?"
 tagline: "For programatic UI setup"
 category: posts
