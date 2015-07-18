@@ -121,15 +121,16 @@ without setting up the views in Interface Builder. Though that doesn't
 strictly follow what Apple recommends we do, that's perfectly safe,
 because of the way in which a view controller loads its view.
 
-When the `view` property of a `UIViewController` is accessed, the
-pseudocode for returning a view looks something like this [^1]:
+When the `view` property of a `UIViewController` is accessed, a
+simplified pseudocode for returning a view looks something like this
+[^1]:
 
 >  1. If there's already a view set, return that view
 > 
 >  2. Call `loadView`
 > 
->     The default implementation of `loadView` does something like this
->     [^2]:
+>     The default implementation of `loadView` in `UIViewController`
+>     does something like this [^2]:
 > 
 >      - If there's an associated storyboard / xib,
 >           - Load the view hierarchy from the storyboard / xib
@@ -161,7 +162,8 @@ you should only read the `view` property, which should have been already
 set.
 
 ---
-[^1]: Thanks to Xcode and Hopper
+[^1]: Thanks to breakpoints and disassembly features in Xcode and the
+      Hopper decompiler
 
 [^2]: This is why, in your implementation of `loadView`, you shouldn't
       call `super.loadView()` and then also set the `view` property.
