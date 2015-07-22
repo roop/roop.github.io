@@ -26,7 +26,7 @@ problem as well, though it's less obvious.
 In the Objective-C version of the project, I'm assuming both `Feed` and
 `Folder` would be defined as Objective-C protocols, and we'd have
 `LocalFeed` and `LocalFolder` as `NSObject`-based Objective-C classes
-confirming to those protocols respectively.
+conforming to those protocols respectively.
 
 Brent's Objective-C version of `addFeeds` (in say `LocalFolder`)
 looks like this:
@@ -57,7 +57,7 @@ This would override the implicit equality checking with the equality
 checking that we really want.
 
 Also, I think the concept of a feed is more like a struct than a class.
-But there's no way for a value type to confirm to a protocol in
+But there's no way for a value type to conform to a protocol in
 Objective-C, so we are forced to make `LocalFeed` a class here.
 
 ### Let's Swift
@@ -72,7 +72,7 @@ protocol Feed {
 }
 {% endhighlight %}
 
-`LocalFeed` is a value type confirming to the `Feed` protocol.
+`LocalFeed` is a value type conforming to the `Feed` protocol.
 
 {% highlight swift %}
 struct LocalFeed: Feed {
@@ -89,13 +89,13 @@ protocol inherit from the `Equatable` protocol.
 
 The `Equatable` protocol requires that we implement a function with
 signature `func ==(lhs: Self, rhs: Self) -> Bool`. The `Self` here
-refers to the actual type confirming to the protocol (like `LocalFeed`)
+refers to the actual type conforming to the protocol (like `LocalFeed`)
 that we're checking for equality. So, a function signature of `func
-==(lhs: Feed, rhs: Feed) -> Bool` will not help us confirm to
+==(lhs: Feed, rhs: Feed) -> Bool` will not help us conform to
 `Equatable`, because `Feed` is a protocol, not a type.
 
 We should write a function that can take two values of a particular
-type, where that type confirms to the `Feed` protocol. We can do that
+type, where that type conforms to the `Feed` protocol. We can do that
 using generics.
 
 {% highlight swift %}
@@ -118,11 +118,11 @@ To represent a bunch of feeds in a folder, let's use an array.
 To represent an array of feeds, we might write `[Feed]`. But if we
 really think about it, that's not correct because `Feed` is not a type -
 it's a protocol. What we want is an array of values of a certain _type_,
-where that type is a type that confirms to the `Feed` protocol.
+where that type is a type that conforms to the `Feed` protocol.
 
 We need a `typealias` to represent this. When we say `typealias
 FeedType: Feed`, we create a placeholder type called `FeedType` that
-confirms to the `Feed` protocol. We can then proceed to use `FeedType`
+conforms to the `Feed` protocol. We can then proceed to use `FeedType`
 in further declarations in our definition of a folder.
 
 {% highlight swift %}
@@ -135,12 +135,12 @@ protocol Folder {
 
 Note that the type of the `feeds` property and the type of `feedsToAdd`
 in the signature of `addFeeds` are now tied to each other. If you create
-a type that confirms to the `Folder` protocol, these types must be the
+a type that conforms to the `Folder` protocol, these types must be the
 _same types_.  They cannot be two different types, even if both of them
-confirm to the `Feed` protocol.
+conform to the `Feed` protocol.
 
 So, when we create a `LocalFolder` we need to use a specific type
-confirming to the `Feed` protocol, rather than just saying `Feed`.
+conforming to the `Feed` protocol, rather than just saying `Feed`.
 
 {% highlight swift %}
 class LocalFolder: Folder {
