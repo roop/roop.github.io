@@ -56,6 +56,9 @@ to check the equality of the feed urls rather than memory addresses.
 This would override the implicit equality checking with the equality
 checking that we really want.
 
+(**Update 22/Jul/2015:** [Brent clarified][brent's twitter reply] that pointer
+equality was really what he wanted.)
+
 Also, I think the concept of a feed is more like a struct than a class.
 But there's no way for a value type to conform to a protocol in
 Objective-C, so we are forced to make `LocalFeed` a class here.
@@ -174,3 +177,6 @@ code is the `==` function. But I would argue that likewise, we needed an
 I'd love to hear your feedback on this, especially Brent's. You can find
 me on Twitter [@roopeshchander](http://twitter.com/roopeshchander).
 
+(**Update 22/Jul/2015:** Brent's [feedback tweet][brent's twitter reply].)
+
+[brent's twitter reply]: https://twitter.com/brentsimmons/status/623510343344455680
