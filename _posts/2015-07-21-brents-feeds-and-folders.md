@@ -177,6 +177,7 @@ code is the `==` function. But I would argue that likewise, we needed an
 I'd love to hear your feedback on this, especially Brent's. You can find
 me on Twitter [@roopeshchander](http://twitter.com/roopeshchander).
 
-(**Update 22/Jul/2015:** Brent's [feedback tweet][brent's twitter reply].)
+(**Update 22/Jul/2015:** Got some good feedback [on Twitter][tweet], including [Brent's][brent's twitter reply].)
 
+[tweet]: https://twitter.com/roopeshchander/status/623507377073983488
 [brent's twitter reply]: https://twitter.com/brentsimmons/status/623510343344455680
