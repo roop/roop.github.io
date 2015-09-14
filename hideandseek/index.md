@@ -45,8 +45,8 @@ Some caveats:
     hide that action from Google, use the 'Open in New Tab'
     option rather than tapping on a result directly.
   - When using Google Images search on the iPad, when Hide & Seek
-    is enabled for that search, to visit the origin website of the
-    image, you will have to use the 'Open in New Tab'
+    is hiding your identity for that search, to visit the origin
+    website of the image, you will have to use the 'Open in New Tab'
     option rather than tapping on a result directly.
 
 Hide & Seek will be available soon for 64-bit iPhones and iPads running
