@@ -7,6 +7,13 @@ permalink: /projects/index.html
 
 <h2>Projects</h2>
 
+<h3>Hide &amp; Seek</h3>
+
+A Safari content blocker extension to improve your privacy when making web searches
+
+**Website:** [roopc.net/hideandseek/](/hideandseek/ "Hide & Seek")
+<hr />
+
 <h3>Bisect</h3>
 
 Bisect is a split-screen writing app for the iPad.
