@@ -31,13 +31,12 @@ your search query with your Google account. To counter this,
 you can use Hide & Seek to hide your identity in Google search,
 while still staying logged into Gmail.
 
-Before using Hide & Seek, you need to think about which
-Google and Bing services you can use logged out. Then,
-configure Hide & Seek to hide your identity in those services.
-After that, you can search as usual and your searches will
-be performed as a logged out user. You can simultaneously
-use other Google or Microsft services (like Gmail or Outlook)
-in other tabs as a logged in user.
+Before using Hide & Seek, you need to decide Google and Bing services
+you'd like to use logged out. Then, configure Hide & Seek to hide your
+identity in those services. After that, you can search as usual and
+your searches will be performed as a logged out user. You can
+simultaneously use other Google or Microsft services (like Gmail or
+Outlook) in other tabs as a logged in user.
 
 Some caveats:
 
