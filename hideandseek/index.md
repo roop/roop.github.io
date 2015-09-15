@@ -48,6 +48,8 @@ Some caveats:
     website of the image, you will have to use the 'Open in New Tab'
     option rather than tapping on a result directly.
 
+You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
+
 Hide & Seek will be available soon for 64-bit iPhones and iPads running
 iOS 9.
 
