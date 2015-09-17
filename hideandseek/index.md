@@ -61,7 +61,25 @@ Some caveats:
 You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
 
 Hide & Seek will be available soon for 64-bit iPhones and iPads running
-iOS 9.
+iOS 9. The app is currently Waiting for Review at Apple and will be
+released as soon as Apple approves it.
+
+<!--
+If you'd like to know when it becomes available, you can either follow
+@HideNSeekApp on Twitter, or sign up to get notified below:
+
+<div class="shameless-plug" style="margin-bottom: 1em;">
+<form action="http://roopc.createsend.com/t/i/s/irgc/" method="post" id="subForm">
+    <p>
+        <label for="fieldEmail">Email</label><br />
+        <input id="fieldEmail" name="cm-irgc-irgc" type="email" placeholder="your@email.com" required />
+    </p>
+    <p>
+        <button type="submit">Subscribe</button>
+    </p>
+</form>
+</div>
+-->
 
 <div class="post-postscript">
 <p>Made in India by <a href="/">Roopesh Chander</a></p>
