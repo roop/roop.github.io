@@ -35,7 +35,7 @@ Before using Hide & Seek, you'll have to decide which Google and Bing services
 you'd like to use logged out. Then, configure Hide & Seek to hide your
 identity in those services. After that, you can search as usual and
 your searches will be performed as a logged out user. You can
-simultaneously use other Google or Microsft services (like Gmail or
+simultaneously use other Google or Microsoft services (like Gmail or
 Outlook) in other tabs as a logged in user.
 
 Some caveats:
