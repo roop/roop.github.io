@@ -377,6 +377,22 @@ pre {
     margin: -0.5em 0;
 }
 
+.get-notified {
+    input {
+        border-color: #000;
+    }
+    button {
+        border-color: #4a9edf;
+        border-width: 1px;
+        background-color: #fff;
+        color: #4a9edf;
+        font-weight: 300;
+    }
+    button:active {
+        color: #e4e4e4;
+    }
+}
+
 .huge {
     font-size: 300%;
 }
