@@ -60,12 +60,46 @@ Some caveats:
 
 You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
 
-Hide & Seek will be available soon for 64-bit iPhones and iPads running
-iOS 9. The app is currently Waiting for Review at Apple and will be
-released as soon as Apple approves it.
+<p>Hide & Seek for iPhone and iPad is currently Waiting for Review at
+Apple and will be released as soon as Apple approves it.</p>
 
-If you'd like to know when it becomes available, please sign up below
-to get notified on it's launch (or follow [@hidenseekapp] on Twitter).
+<div>
+<div class="column-container-outer">
+<div class="column-container-inner">
+<div class="left-column">
+  <div class="column">
+  <div class="centered-text around-app-store-icon">
+   <p class="app-platform">For iPhone / iPad</p>
+   <p><img alt="App Store"
+    src="coming_soon_badge.png" /></p>
+   <p>$ 2.99 Universal App<br/>
+  Requires iOS 9 on a 64-bit device</p>
+  <p>ETA: This week</p>
+  </div>
+  </div>
+</div>
+<div class="right-column">
+  <div class="column">
+  <div class="centered-text around-app-store-icon">
+   <p class="app-platform">For Mac</p>
+   <p><img alt="App Store"
+    src="coming_soon_badge.png" /></p>
+   <p>Free Safari Extension<br/>
+  Requires OS X El Capitan</p>
+  <p>ETA: October 2015</p>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="end-of-column">
+
+<p>If you'd like to know when Hide & Seek becomes available for iOS and
+Mac, please sign up below to get notified on it's launch (or follow <a
+href="https://www.twitter.com/hidenseekapp">@HideNSeekApp</a> on
+Twitter).
 
 <div class="get-notified shameless-plug" style="margin-bottom: 30px;">
 <form action="http://roopc.createsend.com/t/i/s/irgc/" method="post" id="subForm">
@@ -78,8 +112,14 @@ to get notified on it's launch (or follow [@hidenseekapp] on Twitter).
 </form>
 </div>
 
-<div class="post-postscript">
-<p>Made in India by <a href="/">Roopesh Chander</a></p>
+<div class="app-legal-footer centered-text tight-lines">
+<p><small>
+Made in India by <a href="/">Roopesh Chander</a>.
+Apple, the Apple logo, Safari, iPhone and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.
+Google is a registered trademark of Google Inc. Google Web Search, Google Images, Google Videos and Google News are trademarks of Google Inc.
+Microsoft and Bing are registered trademarks of Microsoft Corporation in the United States and/or other countries.
+</small></p>
+</div>
 </div>
 
-[@HideNSeekApp]: https://www.twitter.com/hidenseekapp
+
