@@ -60,7 +60,7 @@ Some caveats:
 
 You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
 
-<p>Hide & Seek for iPhone and iPad is currently Waiting for Review at
+<p>Hide & Seek for iOS is currently Waiting for Review at
 Apple and will be released as soon as Apple approves it.</p>
 
 <div>
@@ -96,7 +96,7 @@ Apple and will be released as soon as Apple approves it.</p>
 
 <div class="end-of-column">
 
-<p>If you'd like to know when Hide & Seek becomes available for iOS and
+<p>If you'd like to know when Hide & Seek becomes available for iOS or
 Mac, please sign up below to get notified on it's launch (or follow <a
 href="https://www.twitter.com/hidenseekapp">@HideNSeekApp</a> on
 Twitter).
