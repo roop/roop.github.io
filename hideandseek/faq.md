@@ -48,9 +48,9 @@ information is turned off, but the search engine notes it down anyway.</p>
 use of cookie blocking. Based on your configuration, it generates rules
 that tell Safari to block cookies on certain URLs.</p>
 
-<h4>Will this app work with any iOS browser, or just Safari?</h4>
+<h4>Will this app work with any browser, or just Safari?</h4>
 
-<p>Just Safari.</p>
+<p>Just Safari. Safari for iOS and Safari for Mac OS X.</p>
 
 <h4>Okay, you hide my search activity from Google and Bing. What about my
 following a search result from Google or Bing? Won&rsquo;t that get tracked?</h4>
@@ -58,16 +58,23 @@ following a search result from Google or Bing? Won&rsquo;t that get tracked?</h4
 <p>Without Hide &amp; Seek, both Google and Bing take note of which
 search results you tap on.</p>
 
-<p>In case of Bing, this app takes care of preventing Bing from taking
-note of this activity.</p>
+<p>When using Hide &amp; Seek for iOS:</p>
 
-<p>To prevent Google from tracking this, please use the &lsquo;Open in New Tab&rsquo; option
-(press-and-hold on the link to see this option) when you&rsquo;d like to follow a link.</a>
+<ul>
+   <li>When using Bing, you don&rsquo;t have to do anything special &mdash; this app takes
+   care of preventing Bing from taking note of this activity.</li>
+   <li>When using Google, to prevent Google from tracking this, please use the &lsquo;Open
+   in New Tab&rsquo; option (press-and-hold on the link to see this option) when you&rsquo;d
+   like to follow a link.</li>
+</ul>
 
-<h4>Why can&rsquo;t Hide &amp; Seek hide my identity when I tap on a Google search result?</h4>
+<p>Hide &amp; Seek for Mac OS X is still under development, so I'll
+answer the Mac part of this later.</p>
+
+<h4>Why can&rsquo;t Hide &amp; Seek for iOS hide my identity when I tap on a Google search result?</h4>
 
 <p>Unfortunately, this requires a technical answer. The result link in the
-Google search results page is an &lsquo;a&rsquo; HTML element with a &lsquo;ping&rsquo; attribute. When you
+Google search results page on Safari for iOS is an &lsquo;a&rsquo; HTML element with a &lsquo;ping&rsquo; attribute. When you
 click on the &lsquo;a&rsquo; element, in addition to the link opening, a notification is sent to the
 URL in the &lsquo;ping&rsquo; attribute. This notification is not covered by content blockers, so
 Hide &amp; Seek can&rsquo;t help here.</p>
@@ -83,7 +90,8 @@ Hide &amp; Seek can&rsquo;t help here.</p>
         <a href="https://www.google.com/settings/accounthistory/">Google</a> /
         <a href="https://www.bing.com/account/history">Bing</a>,
         turn it on temporarily.</li>
-    <li>Configure Hide &amp; Seek as you want and ensure it&rsquo;s enabled in Settings > Safari > Content Blockers</li>
+    <li>Configure Hide &amp; Seek as you want</li>
+    <li>On iOS, ensure that Hide &amp; Seek is enabled in Settings > Safari > Content Blockers</li>
     <li>Use Google / Bing searches while you browse</li>
     <li>Check your search history in Google / Bing to see if your search activity shows up there</li>
     <li>Once you&rsquo;re convinced, you can turn off search history</li>
