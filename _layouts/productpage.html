@@ -46,16 +46,9 @@
         </div>
 
 {% if page.productimage1x %}
-<style>
-.productlogo {
-    background-color: {{ page.productimagebg }};
-    text-align: center;
-    width: 100%;
-    margin: 20px 0 5px 0;
-}
-</style>
-<div class="productlogo">
+<div class="productlogo" style="background-color: {{ page.productimagebg }};">
 <img width="{{ page.productimagewidth }}" height="{{ page.productimageheight }}" 
+    alt="Hide & Seek logo"
     src="{{ page.productimage1x }}"
     srcset="{{ page.productimage2x }} 2x" />
 </div>
