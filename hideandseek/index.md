@@ -60,8 +60,7 @@ Some caveats:
 
 You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
 
-<p>Hide & Seek for iOS is currently Waiting for Review at
-Apple and will be released as soon as Apple approves it.</p>
+<p>Hide & Seek for iOS is currently Waiting for Review at Apple.</p>
 
 <div>
 <div class="column-container-outer">
