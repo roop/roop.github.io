@@ -71,7 +71,7 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
     src="coming_soon_badge.png" /></p>
    <p>$ 2.99 Universal App<br/>
   Requires iOS 9 on a 64-bit device</p>
-  <p>ETA: This week</p>
+  <p>ETA: October 2015</p>
   </div>
   </div>
 </div>
