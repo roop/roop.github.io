@@ -71,7 +71,6 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
     src="coming_soon_badge.png" /></p>
    <p>$ 2.99 Universal App<br/>
   Requires iOS 9 on a 64-bit device</p>
-  <p>ETA: October 2015</p>
   </div>
   </div>
 </div>
@@ -83,7 +82,6 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
     src="coming_soon_badge.png" /></p>
    <p>Free Safari Extension<br/>
   Requires OS X El Capitan</p>
-  <p>ETA: October 2015</p>
   </div>
   </div>
 </div>
@@ -93,10 +91,15 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
 
 <div class="end-of-column">
 
+<p>Hide &amp; Seek is undergoing app review at Apple, but is taking longer than
+usual to get approved. At present, I don't have an estimate of when it might pass the
+review.
+</p>
+
 <p>If you'd like to know when Hide & Seek becomes available for iOS or
 Mac, please sign up below to get notified on it's launch (or follow <a
 href="https://www.twitter.com/hidenseekapp">@HideNSeekApp</a> on
-Twitter).
+Twitter).</p>
 
 <div class="get-notified shameless-plug" style="margin-bottom: 30px;">
 <form action="http://roopc.createsend.com/t/i/s/irgc/" method="post" id="subForm">
