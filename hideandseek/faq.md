@@ -27,7 +27,7 @@ Some folks consider this information private, and don&rsquo;t want Google (or Bi
 have that information.</p>
 
 <p>Also, when searching as a logged in user, your search results are based on your past
-searches and the links you&rsquo;ve visited through those searches. In some scenarions,
+searches and the links you&rsquo;ve visited through those searches. In some scenarios,
 this can cause a filter bubble, showing you more of web pages that you agree with and
 decreasing the likelihood of finding an alternate point of view.</p>
 
