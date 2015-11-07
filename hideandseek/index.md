@@ -79,7 +79,7 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
   <div class="centered-text around-app-store-icon">
    <p class="app-platform">For iPhone / iPad</p>
    <p><a
-   href="https://itunes.apple.com/us/app/hide-seek-improve-your-privacy/id1039871117?ls=1&mt=8&at=1000l6ab"
+   href="https://itunes.apple.com/us/app/hide-seek-improve-your-privacy/id1039871117?ls=1&mt=8&at=1000l6ab&ct=web"
    ><img alt="App Store"
     src="app_store_badge.svg" /></a></p>
    <p>$ 2.99 Universal App<br/>
