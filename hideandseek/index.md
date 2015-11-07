@@ -31,6 +31,14 @@ your search query with your Google account. To counter this,
 you can use Hide & Seek to hide your identity in Google search,
 while still staying logged into Gmail.
 
+> Hide & Seek has nothing to do with “blocking ads”. It is simply about
+> maintaining your privacy and anonymity while using Google and Bing for
+> web search.
+>
+> _John Gruber, [Daring Fireball][df]_
+
+[df]: http://daringfireball.net/linked/2015/09/16/hide-and-seek
+
 Hide & Seek supports hiding your identity in:
 
   - Google Web Search
@@ -55,8 +63,11 @@ Some caveats:
     in New Tab' option rather than tapping on a result directly.
   - On the iPad: When using Google Images search and when Hide & Seek is
     hiding your identity for that search, to visit the origin website of
-    the image, you will have to use the 'Open in New Tab' option rather
+    the image, you might have to use the 'Open in New Tab' option rather
     than tapping on a result directly.
+  - On the iPhone: When you’d like to follow a Bing search result, you
+    might have to use the ‘Open in New Tab’ option rather than tapping
+    on a result directly.
 
 You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
 
@@ -67,8 +78,10 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
   <div class="column">
   <div class="centered-text around-app-store-icon">
    <p class="app-platform">For iPhone / iPad</p>
-   <p><img alt="App Store"
-    src="coming_soon_badge.png" /></p>
+   <p><a
+   href="https://itunes.apple.com/us/app/hide-seek-improve-your-privacy/id1039871117?ls=1&mt=8&at=1000l6ab"
+   ><img alt="App Store"
+    src="app_store_badge.svg" /></a></p>
    <p>$ 2.99 Universal App<br/>
   Requires iOS 9 on a 64-bit device</p>
   </div>
@@ -90,27 +103,6 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
 </div>
 
 <div class="end-of-column">
-
-<p>Hide &amp; Seek is undergoing app review at Apple, but is taking longer than
-usual to get approved. At present, I don't have an estimate of when it might pass the
-review.
-</p>
-
-<p>If you'd like to know when Hide & Seek becomes available for iOS or
-Mac, please sign up below to get notified on it's launch (or follow <a
-href="https://www.twitter.com/hidenseekapp">@HideNSeekApp</a> on
-Twitter).</p>
-
-<div class="get-notified shameless-plug" style="margin-bottom: 30px;">
-<form action="http://roopc.createsend.com/t/i/s/irgc/" method="post" id="subForm">
-    <p>
-        <input id="fieldEmail" name="cm-irgc-irgc" type="email" placeholder="your@email.com" required />
-    </p>
-    <p>
-        <button type="submit">Get notified</button>
-    </p>
-</form>
-</div>
 
 <div class="app-legal-footer centered-text tight-lines">
 <p><small>
