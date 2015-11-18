@@ -7,7 +7,7 @@ productimage2x: ../HideAndSeekIcon400.png
 productimagewidth: 200
 productimageheight: 200
 productimagebg: black
-permalink: /hideandseek/beta/index.html
+permalink: /hideandseek/mac/index.html
 title: "Hide and Seek for Mac - Beta"
 ---
 
