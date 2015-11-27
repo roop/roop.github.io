@@ -104,6 +104,23 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
 
 <div class="end-of-column">
 
+<p>If you'd like to know when Hide & Seek becomes available for
+Mac OS X, please sign up below to get notified on it's launch (or follow <a
+href="https://www.twitter.com/hidenseekapp">@HideNSeekApp</a> on
+Twitter).</p>
+
+<div class="get-notified shameless-plug" style="margin-bottom: 30px;">
+<form action="http://roopc.createsend.com/t/i/s/irgc/" method="post" id="subForm">
+    <p>
+        <input id="fieldEmail" name="cm-irgc-irgc" type="email" placeholder="your@email.com" required />
+    </p>
+    <p>
+        <button type="submit">Get notified</button>
+    </p>
+</form>
+</div>
+
+
 <div class="app-legal-footer centered-text tight-lines">
 <p><small>
 Made in India by <a href="/">Roopesh Chander</a>.
