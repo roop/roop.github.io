@@ -1,0 +1,52 @@
+---
+permalink: /last-week-in-swift-evolution/rss.xml
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+
+    <title>Last week in Swift Evolution</title>
+    <link>http://www.roopc.net/last-week-in-swift-evolution/</link>
+    <description>Last week in Swift Evolution: roopc.net</description>
+
+    <generator>Jekyll</generator>
+    <language>en-us</language>
+    <copyright>Copyright 2015-{{ site.time | date: '%Y' }} Roopesh Chander</copyright>
+    <webMaster>roop@roopc.net (Roopesh Chander)</webMaster>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+
+    <atom:link href="http://roopc.net/last-week-in-swift-evolution/rss.xml" rel="self" type="application/rss+xml" />
+
+    {% for post in site.categories.last-week-in-swift-evolution limit:16 %}
+    <item>
+        <title>
+        {% if post.title_text %}
+            {{ post.title_text }}
+        {% else %}
+            {{ post.title }}
+        {% endif %}
+        </title>
+        <link>{{ site.url }}{{ post.url }}</link>
+        <guid>{{ site.url }}{{ post.id }}</guid>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <description>
+        <![CDATA[
+        {{ post.content }}
+        {% if post.postscript %}<aside>{{ post.postscript | markdownify }}</aside>{% endif %}
+        {% if post.readthisnext %}
+          {% for p in site.categories.posts %}
+            {% if p.id == post.readthisnext %}
+              {% capture readthisnext_url %}{{ site.url }}{{ p.url }}{% endcapture %}
+              {% capture readthisnext_title %}{{ p.title }}{% endcapture %}
+            {% endif %}
+          {% endfor %}
+          {% if readthisnext_url %}<aside><p>If you liked this post, you might also like: <a href="{{ readthisnext_url }}">{{ readthisnext_title }}</a></p></aside>{% endif %}
+        {% endif %}
+        ]]>
+        </description>
+    </item>
+    {% endfor %}
+ 
+</channel>
+</rss>

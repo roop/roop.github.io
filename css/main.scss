@@ -94,6 +94,17 @@ article {
     a:visited {
         color: lighten($link_blue, 10%);
     }
+    h2 {
+        a, :hover, a:visited {
+            color: $content_dark_gray;
+            text-decoration: none;
+            border-bottom: none;
+        }
+        a:hover {
+            color: $content_dark_gray;
+            text-decoration: underline;
+        }
+    }
 }
 
 /* ==========================================================================
