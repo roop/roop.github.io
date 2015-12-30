@@ -8,7 +8,7 @@ layout: page
 {{ content }}
 
 <p>
-  <span class="post-date">Published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B&nbsp;%d,&nbsp;%Y" }}</time>{% if page.modified %}, last modified on <time datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">{{ page.modified | date: "%B&nbsp;%d,&nbsp;%Y" }}</time>){% endif %}</span>
+  <span class="post-date">Published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B&nbsp;%d,&nbsp;%Y" }}</time>{% if page.modified %}, last modified on <time datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">{{ page.modified | date: "%B&nbsp;%d,&nbsp;%Y" }}</time>{% endif %}</span>
 </p>
 
 {% if page.postscript %}
