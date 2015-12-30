@@ -5,6 +5,7 @@ title: "Week of Dec 21, 2015"
 description: "Lazy <code>flatMap</code> for sequences of optionals and tuple comparison operators passed review. Coming up next week for review: <code>associated</code> and <code>memberwise init</code>." 
 category: last-week-in-swift-evolution
 rss: /last-week-in-swift-evolution/rss.xml
+modified: Dec 30, 2015
 ---
 
 A summary of selected updates from last week from the Swift Evolution
@@ -42,7 +43,7 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     This proposal is likely to be up for review next week.
 
 [associated]: https://github.com/apple/swift-evolution/blob/master/proposals/0011-replace-typealias-associated.md
-[flexible_init]: https://github.com/apple/swift-evolution/blob/master/proposals/0018-flexible-memberwise-initialization.md)
+[flexible_init]: https://github.com/apple/swift-evolution/blob/master/proposals/0018-flexible-memberwise-initialization.md
 [memberwise_swift_book]: https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-ID214
 
 ### Accepted proposals
@@ -152,3 +153,6 @@ A few discussions that caught my eye last week:
     support setters, getters, initializers and subscripting. The syntax
     for this is still being debated.
 
+**Update (Dec 30):** You might also want to take a look at Erica Sadun's
+[roundup](http://ericasadun.com/2015/12/28/we-are-devo-swift-evolution-continues/)
+of last week's Swift Evolution discussions.
