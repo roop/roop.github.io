@@ -14,14 +14,16 @@ effort to make it great software.
 
 ### Apps I made
 
- * [Hide & Seek][]: A Safari content blocker to improve privacy on your searches
+ * [Hide & Seek][]: A Safari content blocker to improve privacy on your web searches
  * [Bisect][]: A split-screen Markdown editor for the iPad
 
 ### Related work
 
+ * I'm writing a [weekly summary][lwise] on the evolution of Swift. (Let
+   me see how long I can keep that up.)
  * I [found and fixed a bug in Webkit][webkit_bugfix], thereby enabling
    content blocking to work correctly in some scenarios (including one
-   that Hide & Seek ran into)
+   that Hide & Seek had ran into)
  * I wrote and implemented a parser specification for Markdown called
    [vfmd].
 
@@ -38,6 +40,7 @@ Instruments as an EDA engineer.
 [Bisect]: http://bisectapp.com
           "Bisect: A split-screen Markdown editor for the iPad"
 
+[lwise]: /last-week-in-swift-evolution/
 [webkit_bugfix]: https://bugs.webkit.org/show_bug.cgi?id=149873
 [vfmd]: http://www.vfmd.org/ "vfmd: Markdown with a spec"
 
