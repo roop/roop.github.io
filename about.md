@@ -12,22 +12,38 @@ When creating software, I design the user experience,
 write the code and create a lot of the graphics. I take the
 effort to make it great software.
 
-I made [Bisect], a split-screen Markdown editor for the iPad, and [Hide
-& Seek], a Safari content blocker. Earlier, I wrote and implemented a
-parser specification for Markdown called [vfmd].
+### Apps I made
 
-In the past, I have worked with Nokia, KDE, Hyves and other customers
-as part of [a Qt consultancy company]. During that time, I created
-[Notekeeper][], the Evernote client for Meego-Harmattan and Symbian.
-Prior to that, I worked for Texas Instruments as an EDA engineer.
+ * [Hide & Seek][]: A Safari content blocker to improve privacy on your searches
+ * [Bisect][]: A split-screen Markdown editor for the iPad
+
+### Related work
+
+ * I [found and fixed a bug in Webkit][webkit_bugfix], thereby enabling
+   content blocking to work correctly in some scenarios (including one
+   that Hide & Seek ran into)
+ * I wrote and implemented a parser specification for Markdown called
+   [vfmd].
+
+### Earlier
+
+In the past, I have worked with Nokia, KDE, Hyves and other customers as
+part of a Qt consultancy company called ForwardBias Technologies. During
+that time, I created [Notekeeper][], the Evernote client for
+Meego-Harmattan and Symbian.  Prior to that, I worked for Texas
+Instruments as an EDA engineer.
 
 [Hide & Seek]: /hideandseek/
           "Hide & Seek"
 [Bisect]: http://bisectapp.com
           "Bisect: A split-screen Markdown editor for the iPad"
-[vfmd]: http://vfmd.github.io/ "vfmd: Markdown with a spec"
+
+[webkit_bugfix]: https://bugs.webkit.org/show_bug.cgi?id=149873
+[vfmd]: http://www.vfmd.org/ "vfmd: Markdown with a spec"
+
 [Notekeeper]: http://www.notekeeperapp.com/n9 "Notekeeper for N9"
 [a Qt consultancy company]: http://www.forwardbias.in/ "ForwardBias Technologies"
 
-**Twitter:** [@roopeshchander](http://twitter.com/roopeshchander)<br />
-**Email:** roop at roopc dot net
+### Ping me
+
+If you'd like to get in touch, you can find me on Twitter ([@roopeshchander](http://twitter.com/roopeshchander)) or send me an email (**roop at roopc dot net**).
