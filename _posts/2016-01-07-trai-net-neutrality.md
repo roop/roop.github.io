@@ -14,6 +14,12 @@ This is the response I sent, with the questions included inline:
 
 ---
 
+Thank you for inviting the general public into the discussion by
+inviting comments on this issue. I appreciate it greatly and it
+improves the confidence I have on the governing process in my country.
+
+On to the questions now:
+
 > Question 1: Should the TSPs (Telecom Service Providers / Internet
 > Service Providers) be allowed to have differential pricing
 > for data usage for accessing different websites, applications or
