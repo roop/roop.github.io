@@ -17,6 +17,7 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
 
   - [New keyword for associate type declaration][associated]
 
+    <a name="associatedtype"></a>
     We declare associated types currently using the `typealias` keyword,
     and the same keyword is used to create an alias for a type. Loïc
     Lecrenier proposed a new keyword to declare associated types. The
