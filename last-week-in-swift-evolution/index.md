@@ -8,7 +8,8 @@ rss: /last-week-in-swift-evolution/rss.xml
 <div class="post-index-container">
 
   <aside class="roop-intro">
-  <p>{% include roop-intro.html %}</p>
+  <p>A weekly summary of selected updates from the Swift Evolution
+  repository and mailing list.</p>
   </aside>
 
   <header class="post-index-header"><h1>Last week in Swift Evolution</h1></header>
