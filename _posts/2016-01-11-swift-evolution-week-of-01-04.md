@@ -27,7 +27,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
 
 ### Review discussions
 
-  - [Testing for Swift packages][swift_tests]
+  - <a name="swift-pm-testing"></a>
+    [Testing for Swift packages][swift_tests]
 
     The Swift Package Manager team had proposed to include tests in
     Swift packages. The package manager looks for tests within a `Tests`
@@ -48,7 +49,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     Drew Crawford posted an excellent [summary of the arguments](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160111/006197.html)
     against this proposal earlier today.
 
-  - [Flexible memberwise initialization][flexible_init]
+  - <a name="memberwise-init"></a>
+    [Flexible memberwise initialization][flexible_init]
 
     Swift currently offers an automatic [memberwise
     initializer][memberwise_swift_book] for structs (unless they
