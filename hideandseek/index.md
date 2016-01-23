@@ -91,8 +91,12 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
   <div class="column">
   <div class="centered-text around-app-store-icon">
    <p class="app-platform">For Mac</p>
-   <p><img alt="App Store"
-    src="coming_soon_badge.png" /></p>
+   <p><a
+   href="https://safari-extensions.apple.com/details/?id=net.roopc.hideandseekformac-R2NV2FHE22"
+   ><img alt="Safari Extensions Gallery"
+    src="SafariExtnGalleryBadge.png"
+    srcset="SafariExtnGalleryBadge.png 1x, SafariExtnGalleryBadge@2X.png 2x"
+    /></a></p>
    <p>Free Safari Extension<br/>
   Requires OS X El Capitan</p>
   </div>
@@ -103,23 +107,6 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
 </div>
 
 <div class="end-of-column">
-
-<p>If you'd like to know when Hide & Seek becomes available for
-Mac OS X, please sign up below to get notified on it's launch (or follow <a
-href="https://www.twitter.com/hidenseekapp">@HideNSeekApp</a> on
-Twitter).</p>
-
-<div class="get-notified shameless-plug" style="margin-bottom: 30px;">
-<form action="http://roopc.createsend.com/t/i/s/irgc/" method="post" id="subForm">
-    <p>
-        <input id="fieldEmail" name="cm-irgc-irgc" type="email" placeholder="your@email.com" required />
-    </p>
-    <p>
-        <button type="submit">Get notified</button>
-    </p>
-</form>
-</div>
-
 
 <div class="app-legal-footer centered-text tight-lines">
 <p><small>
