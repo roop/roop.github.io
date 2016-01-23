@@ -68,9 +68,6 @@ search results you tap on.</p>
    like to follow a link.</li>
 </ul>
 
-<p>Hide &amp; Seek for Mac OS X is still under development, so I'll
-answer the Mac part of this later.</p>
-
 <h4>Why can&rsquo;t Hide &amp; Seek for iOS hide my identity when I tap on a Google search result?</h4>
 
 <p>Unfortunately, this requires a technical answer. The result link in the

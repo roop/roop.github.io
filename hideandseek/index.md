@@ -68,6 +68,10 @@ Some caveats:
   - On the iPhone: When you’d like to follow a Bing search result, you
     might have to use the ‘Open in New Tab’ option rather than tapping
     on a result directly.
+  - On the Mac: When using Google Images search and when Hide & Seek is
+    hiding your identity for that search, clicking on the ‘View page’ or
+    ‘View image’ links might not work – please right-click and use the
+    ‘Open in New Tab’ option instead.
 
 You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
 
