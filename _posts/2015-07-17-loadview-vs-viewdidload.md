@@ -11,7 +11,8 @@ plug: all-in-code
 
 I was talking to [Justin Driscoll][] on Twitter on setting up the view
 hierarchy in code, and whether the best place to do that was `loadView`
-or `viewDidLoad`.
+or `viewDidLoad` (**Update:** when you inherit directly from
+`UIViewController`).
 
 [Justin Driscoll]: https://twitter.com/jdriscoll
 
@@ -160,6 +161,11 @@ The most important thing to remember is that if you override `loadView`,
 you should set the `view` property, while if you override `viewDidLoad`,
 you should only read the `view` property, which should have been already
 set.
+
+(**Update:** Note that this post applies only when your view is a direct
+subclass of `UIViewController`. When you're inheriting from a subclass
+of `UIViewController`, like say `UITableViewController`, you should
+build up your view hierarchy in `viewDidLoad`.)
 
 ---
 [^1]: Thanks to breakpoints and disassembly features in Xcode and the
