@@ -29,7 +29,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     debate earlier was about what the new keyword should be named) and looks
     likely to be accepted.
 
-  - [Testing for Swift packages][swift_tests]
+  - <a name="swift-pm-testing"></a>
+    [Testing for Swift packages][swift_tests]
 
     The Swift Package Manager team had proposed to include tests in
     Swift packages. The package manager looks for tests within a `Tests`

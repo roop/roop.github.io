@@ -15,7 +15,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
 
 ### Up for review this week
 
-  - [API Design guidelines](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160111/006609.html)
+  - <a name="api-design-guidelines"></a>
+    [API Design guidelines](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160111/006609.html)
 
     This is an effort to define guidelines for how a Swift API should
     look like, and apply that to the Swift stdlib and to how Objective-C
@@ -23,13 +24,14 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
 
     This involves three interlinked sub-proposals:
 
-      1. [API design guidelines](https://swift.org/documentation/api-design-guidelines.html)
+      1. [API design guidelines](https://swift.org/documentation/api-design-guidelines/)
       2. [stdlib API changes](https://github.com/apple/swift-evolution/blob/master/proposals/0006-apply-api-guidelines-to-the-standard-library.md)
-      3. [Objective-C name translation](https://github.com/apple/swift-evolution/blob/master/proposals/0005-objective-c-name-translation.md) (already accepted)
+      3. [Objective-C name translation](https://github.com/apple/swift-evolution/blob/master/proposals/0005-objective-c-name-translation.md)
 
     This review is going to run from tomorrow till the end of the month.
 
-  - [Testing for Swift packages][swift_tests]
+  - <a name="swift-pm-testing"></a>
+    [Testing for Swift packages][swift_tests]
 
     The Swift Package Manager team had proposed to include tests in
     Swift packages.
@@ -60,7 +62,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     this proposal is implemented, generic support for test frameworks
     can be addressed in a separate proposal.
  
-  - [Referencing selectors cleanly](https://github.com/apple/swift-evolution/blob/master/proposals/0022-objc-selectors.md)
+  - <a name="objc-selectors"></a>
+    [Referencing selectors cleanly](https://github.com/apple/swift-evolution/blob/master/proposals/0022-objc-selectors.md)
 
     Currently, we reference Objective-C selectors in Swift using
     "stringly typing":
