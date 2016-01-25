@@ -99,7 +99,7 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
    href="https://safari-extensions.apple.com/details/?id=net.roopc.hideandseekformac-R2NV2FHE22"
    ><img alt="Safari Extensions Gallery"
     src="SafariExtnGalleryBadge.png"
-    srcset="SafariExtnGalleryBadge.png 1x, SafariExtnGalleryBadge@2X.png 2x"
+    srcset="SafariExtnGalleryBadge.png 1x, SafariExtnGalleryBadge@2x.png 2x"
     /></a></p>
    <p>Free Safari Extension<br/>
   Requires OS X El Capitan</p>
