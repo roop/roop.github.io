@@ -45,7 +45,7 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
           - Remove `Type` suffix from protocol names, so it's
             `Collection`, not `CollectionType`
           - Generators are now called iterators. For example, `SequenceType.generate() -> Generator` becomes `SequenceType.iterator() -> Iterator`.
-          - Make non-mutating methods read as non-phrases. So `sort()`
+          - Non-mutating methods shouldn't read as command-verbs. So `sort()`
             that currently returns a sorted list becomes `sorted()`.
 
       - [API Design Guidelines](https://github.com/apple/swift-evolution/blob/master/proposals/0023-api-guidelines.md)
@@ -67,7 +67,7 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
             from function names (like `removeElement()` becomes
             `remove()`), except when the type of the
             argument doesn't sufficiently describe what it is (like
-            `addObserver()`, in which case the function name should
+            `addObserver()`, which should
             remain as is).
 
             As per the proposal, the function should continue to be
