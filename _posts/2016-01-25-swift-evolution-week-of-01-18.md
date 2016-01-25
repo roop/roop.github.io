@@ -23,31 +23,6 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     In Swift 3, the look of the language is getting a redesign, which is
     governed by three interlinked proposals:
 
-      - [Objective-C name translation](https://github.com/apple/swift-evolution/blob/master/proposals/0005-objective-c-name-translation.md)
-
-        These are some of the changes planned for how Obj-C
-        APIs are accessed from Swift 3:
-
-          - Prune redundant type names from function arguments, so it's
-            `remove(member: Element)` rather than `removeElement(member:
-            Element)`
-          - Prepend `is` to Boolean properties, so it's
-            `application.isStatusBarHidden` rather than
-            `application.statusBarHidden` ([See all changes like this](https://github.com/apple/swift-3-api-guidelines-review/commit/a6ce38eec58e8c2da901d0049a04e4b875c403b2))
-          - Strip the `NS` prefix from Foundation APIs, so it's `Rect`
-            rather than `NSRect` ([See all changes like this](https://github.com/apple/swift-3-api-guidelines-review/commit/45e9023fc0f448ede91e34f37187fc54d3974074))
-
-      - [Swift stdlib API changes](https://github.com/apple/swift-evolution/blob/master/proposals/0006-apply-api-guidelines-to-the-standard-library.md)
-
-        These are some of the changes planned for the Swift Standard
-        Library:
-
-          - Remove `Type` suffix from protocol names, so it's
-            `Collection`, not `CollectionType`
-          - Generators are now called iterators. For example, `SequenceType.generate() -> Generator` becomes `SequenceType.iterator() -> Iterator`.
-          - Non-mutating methods shouldn't read as command-verbs. So `sort()`
-            that currently returns a sorted list becomes `sorted()`.
-
       - [API Design Guidelines](https://github.com/apple/swift-evolution/blob/master/proposals/0023-api-guidelines.md)
 
         The changes proposed in the other two proposals are motivated by these API design guidelines. The guidelines themselves are here: [proposed version](https://swift.org/documentation/api-design-guidelines/), [in-development version](http://apple.github.io/swift-internals/api-design-guidelines/).
@@ -79,6 +54,31 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
           - While we're here, why should enums remain UpperCamelCase?
             Like other non-types, shouldn't they be lowerCamelCase?
     
+      - [Objective-C name translation](https://github.com/apple/swift-evolution/blob/master/proposals/0005-objective-c-name-translation.md)
+
+        These are some of the changes planned for how Obj-C
+        APIs are accessed from Swift 3:
+
+          - Prune redundant type names from function arguments, so it's
+            `remove(member: Element)` rather than `removeElement(member:
+            Element)`
+          - Prepend `is` to Boolean properties, so it's
+            `application.isStatusBarHidden` rather than
+            `application.statusBarHidden` ([See all changes like this](https://github.com/apple/swift-3-api-guidelines-review/commit/a6ce38eec58e8c2da901d0049a04e4b875c403b2))
+          - Strip the `NS` prefix from Foundation APIs, so it's `Rect`
+            rather than `NSRect` ([See all changes like this](https://github.com/apple/swift-3-api-guidelines-review/commit/45e9023fc0f448ede91e34f37187fc54d3974074))
+
+      - [Swift stdlib API changes](https://github.com/apple/swift-evolution/blob/master/proposals/0006-apply-api-guidelines-to-the-standard-library.md)
+
+        These are some of the changes planned for the Swift Standard
+        Library:
+
+          - Remove `Type` suffix from protocol names, so it's
+            `Collection`, not `CollectionType`
+          - Generators are now called iterators. For example, `SequenceType.generate() -> Generator` becomes `SequenceType.iterator() -> Iterator`.
+          - Non-mutating methods shouldn't read as command-verbs. So `sort()`
+            that currently returns a sorted list becomes `sorted()`.
+
 ### Accepted proposals
 
   - <a name="swift-pm-testing"></a>
