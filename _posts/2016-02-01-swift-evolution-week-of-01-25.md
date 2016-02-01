@@ -37,7 +37,7 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
           - Chris Lattner seconded the `InPlace` suffix to name
             mutating methods (like `sortInPlace()`,
             `reverseInPlace()`)
-          - Erica Sadun shared her thoughts in a [GitHub
+          - Erica Sadun shared her thoughts in a [Github
             document](https://github.com/erica/SwiftStyle/blob/master/Grammatical.md).
 
       - As per the guidelines, redundant type names should be removed
