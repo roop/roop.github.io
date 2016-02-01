@@ -15,7 +15,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
 
 ### Under review this week
 
-  - **API Design guidelines**
+  - <a name="api-design-guidelines"></a>
+    **API Design guidelines**
 
     _Previously:_ Week of
     [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11/#api-design-guidelines).
@@ -123,7 +124,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
 
 ### Review discussions
 
-  - [Referencing Obj-C selectors cleanly](https://github.com/apple/swift-evolution/blob/master/proposals/0022-objc-selectors.md)
+  - <a name="objc-selectors"></a>
+    [Referencing Obj-C selectors cleanly](https://github.com/apple/swift-evolution/blob/master/proposals/0022-objc-selectors.md)
 
     _Previously:_ Week of
     [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11/#objc-selectors).
