@@ -15,7 +15,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
 
 ### Under review this week
 
-  - **API Design guidelines**
+  - <a name="api-design-guidelines"></a>
+    **API Design guidelines**
 
     _Previously:_ Weeks of
     [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11/#api-design-guidelines),
@@ -80,7 +81,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     
     The deadline for this review has been extended to Feb 5, 2016.
 
-  - [Modernizing \_\_LINE\_\_, etc.](https://github.com/apple/swift-evolution/blob/master/proposals/0028-modernizing-debug-identifiers.md)
+  - <a name="modernizing-debug-identifiers"></a>
+    [Modernizing \_\_LINE\_\_, etc.](https://github.com/apple/swift-evolution/blob/master/proposals/0028-modernizing-debug-identifiers.md)
 
     While discussing how Obj-C selectors can be referenced cleanly from
     Swift (_previously:_ Weeks of [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11/#objc-selectors), [Jan 18](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-18/#objc-selectors)), Chris Lattner [suggested](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160118/007297.html) that "we could consider renaming `__LINE__` and friends to `#LINE`".
