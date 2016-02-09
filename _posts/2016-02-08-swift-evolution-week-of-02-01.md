@@ -18,9 +18,9 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
   - **API Design guidelines**
 
     _Previously:_ Weeks of
-    [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11/#api-design-guidelines),
-    [Jan 18](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-18/#api-design-guidelines),
-    [Jan 25](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-25/#api-design-guidelines).
+    [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11#api-design-guidelines),
+    [Jan 18](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-18#api-design-guidelines),
+    [Jan 25](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-25#api-design-guidelines).
 
 
     In Swift 3, the look of the language is getting a redesign, which is
@@ -87,7 +87,7 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
   - [Modernizing \_\_LINE\_\_, etc.](https://github.com/apple/swift-evolution/blob/master/proposals/0028-modernizing-debug-identifiers.md)
 
     _Previously_: Week of
-    [Jan 25](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-25/#modern-debug-identifiers).
+    [Jan 25](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-25#modern-debug-identifiers).
 
     This proposal was [accepted](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160201/008982.html), but this means that `#line` means different things based on its position in a line.
 
