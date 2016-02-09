@@ -20,7 +20,7 @@ forward][fix1]. (**Update:** Apple has [fixed this][beta3] in Beta 3.)
 [weird3]: https://medium.com/@owensd/swift-arrays-a8f1f91bed78
 
 [fix1]: https://twitter.com/brentdax/status/479690847932256256
-[beta3]: /posts/2014/swift-beta-3/
+[beta3]: /posts/2014/swift-beta-3
 
 In this post, we'll see:
 
