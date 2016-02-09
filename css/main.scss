@@ -375,6 +375,27 @@ pre {
     }
 }
 
+figure {
+    pre {
+        background-color: #f8f8f8;
+        border: 1px solid #cccccc;
+        overflow: auto;
+        padding: 6px 10px;
+        border-radius: 3px;
+        text-align: left;   /* Undo what figure has done */
+        width: 83.33%;      /* Undo what figure has done */
+        margin-left: 8.33%; /* Undo what figure has done */
+        code {
+            margin: 0;
+            padding: 0;
+            white-space: pre;
+            border: none;
+            background: transparent;
+            word-wrap: normal;
+        }
+    }
+}
+
 .post-postscript, .post-readthisnext, .app-legal-footer {
     border-top: 1px dotted $line_gray;
     font-family: $header_fonts;
