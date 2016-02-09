@@ -81,7 +81,7 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     
     The deadline for this review has been extended to Feb 5, 2016.
 
-  - <a name="modernizing-debug-identifiers"></a>
+  - <a name="modern-debug-identifiers"></a>
     [Modernizing \_\_LINE\_\_, etc.](https://github.com/apple/swift-evolution/blob/master/proposals/0028-modernizing-debug-identifiers.md)
 
     While discussing how Obj-C selectors can be referenced cleanly from
