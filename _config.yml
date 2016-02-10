@@ -7,7 +7,7 @@ domain:         roopc.net
 # url:              http://localhost:8082
 # domain:           localhost:8082
 
-permalink:   /:categories/:year/:title
+permalink:   /:categories/:year/:title/
 
 markdown:    'kramdown'
 kramdown:
