@@ -19,8 +19,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     **API Design guidelines**
 
     _Previously:_ Weeks of
-    [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11#api-design-guidelines),
-    [Jan 18](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-18#api-design-guidelines).
+    [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11/#api-design-guidelines),
+    [Jan 18](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-18/#api-design-guidelines).
 
     Given that the API redesign is one of the most important changes
     coming to Swift in 3.0, Apple wrote about this effort [in the Swift
@@ -98,8 +98,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
   - [Referencing Obj-C selectors cleanly](https://github.com/apple/swift-evolution/blob/master/proposals/0022-objc-selectors.md)
 
     _Previously:_ Weeks of
-    [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11#objc-selectors),
-    [Jan 18](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-18#objc-selectors).
+    [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11/#objc-selectors),
+    [Jan 18](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-18/#objc-selectors).
 
     This proposal was [accepted](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160125/007797.html) for Swift 2.2 with the syntax changed to `#selector(Foo.bar)`.
 

@@ -19,7 +19,7 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     **API Design guidelines**
 
     _Previously:_ Week of
-    [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11#api-design-guidelines).
+    [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11/#api-design-guidelines).
 
     In Swift 3, the look of the language is getting a redesign, which is
     governed by three interlinked proposals:
@@ -86,9 +86,9 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     [Testing for Swift packages][swift_tests]
 
     _Previously:_ Weeks of
-    [Dec 28](/last-week-in-swift-evolution/2016/swift-evolution-week-of-12-28#swift-pm-testing),
-    [Jan 4](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-04#swift-pm-testing),
-    [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11#swift-pm-testing).
+    [Dec 28](/last-week-in-swift-evolution/2016/swift-evolution-week-of-12-28/#swift-pm-testing),
+    [Jan 4](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-04/#swift-pm-testing),
+    [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11/#swift-pm-testing).
 
     The Swift Package Manager team's proposal to include tests in
     Swift packages was accepted.
@@ -106,8 +106,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     [Naming functions with argument labels][naming_functions]
 
     _Previously:_ Weeks of
-    [Dec 28](/last-week-in-swift-evolution/2016/swift-evolution-week-of-12-28#naming-functions),
-    [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11#naming-functions).
+    [Dec 28](/last-week-in-swift-evolution/2016/swift-evolution-week-of-12-28/#naming-functions),
+    [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11/#naming-functions).
 
     Doug Gregor's proposal to identify functions with argument labels
     was accepted. The code would look something like this:
