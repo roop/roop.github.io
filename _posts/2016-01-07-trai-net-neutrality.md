@@ -35,15 +35,19 @@ Yes, but only under certain conditions (explained below).
 To ensure that competition among e-commerce and internet-based
 businesses remains fair, ANY ONE of the following should be enforced:
 
- 1. The power of deciding what websites / applications / platforms are
+<ol><li>
+    <p>The power of deciding what websites / applications / platforms are
     available for differential pricing through a TSP should NOT reside
-    with a commercial for-profit entity
+    with a commercial for-profit entity</p>
+</li></ol>
 
- (OR)
+<p>(OR)</p>
 
- 2. Websites / applications / platforms of e-commerce and
+<ol start="2"><li>
+    <p>Websites / applications / platforms of e-commerce and
     internet-related businesses should NOT be allowed to be accessed
-    with differential pricing
+    with differential pricing</p>
+</li></ol>
 
 Additionally, to ensure the security and privacy of consumers using the
 differential pricing scheme, the following should be enforced:
