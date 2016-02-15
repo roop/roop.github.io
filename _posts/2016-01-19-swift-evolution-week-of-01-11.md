@@ -144,7 +144,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
 
 ### Discussions
 
-  - Behaviors ([last week](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160111/006523.html))
+  - <a name="behaviors"><a>
+    Behaviors ([last week](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160111/006523.html))
 
     The current `lazy` annotation on a property declares the "behavior"
     of the propoerty. Joe Groff proposes to generalize this to allow us
@@ -155,7 +156,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     cases, including lazy, memoization and a version of `didSet` that
     fires only when there's an actual change of value.
 
-  - Creating a Unicode string from code units ([last week](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160111/006678.html))
+  - <a name="string-from-code-units"><a>
+    Creating a Unicode string from code units ([last week](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160111/006678.html))
 
     Currently, creating a Uncode `String` from a sequence of bytes works
     cleanly for just one case: null-terminated UTF-8 bytes.

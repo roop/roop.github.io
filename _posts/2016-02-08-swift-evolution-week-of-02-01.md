@@ -15,7 +15,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
 
 ### Review discussions
 
-  - **API Design guidelines**
+  - <a name="api-design-guidelines"></a>
+    **API Design guidelines**
 
     _Previously:_ Weeks of
     [Jan 11](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-11/#api-design-guidelines),
@@ -84,7 +85,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
 
 ### Accepted proposals
 
-  - [Modernizing \_\_LINE\_\_, etc.](https://github.com/apple/swift-evolution/blob/master/proposals/0028-modernizing-debug-identifiers.md)
+  - <a name="modern-debug-identifiers"></a>
+    [Modernizing \_\_LINE\_\_, etc.](https://github.com/apple/swift-evolution/blob/master/proposals/0028-modernizing-debug-identifiers.md)
 
     _Previously_: Week of
     [Jan 25](/last-week-in-swift-evolution/2016/swift-evolution-week-of-01-25/#modern-debug-identifiers).
@@ -123,7 +125,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
 
 ### Up for review
 
-  - [Remove passing function arguments as tuples](https://github.com/apple/swift-evolution/blob/master/proposals/0029-remove-implicit-tuple-splat.md)
+  - <a name="remove-implicit-tuple-splat"></a>
+    [Remove passing function arguments as tuples](https://github.com/apple/swift-evolution/blob/master/proposals/0029-remove-implicit-tuple-splat.md)
 
     Implicit tuple-splatting for function calls is a little-known and
     hardly-ever-used feature in Swift, and Chris Lattner proposes that it

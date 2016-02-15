@@ -132,6 +132,7 @@ Michael Tsai has [blogged about](http://mjtsai.com/blog/2016/01/10/proposal-xcte
 
 ### Other
 
- - Slava Pestov from the Swift team [tweeted](https://twitter.com/slava_pestov/status/685257918220898304) a link to a [work-in-progress draft](https://github.com/apple/swift/blob/master/docs/LibraryEvolution.rst) on the Swift team's goals
+ - <a name="lib-binary-compat"></a>
+   Slava Pestov from the Swift team [tweeted](https://twitter.com/slava_pestov/status/685257918220898304) a link to a [work-in-progress draft](https://github.com/apple/swift/blob/master/docs/LibraryEvolution.rst) on the Swift team's goals
    for the Swift ABI (scheduled for Swift 3.0)
 
