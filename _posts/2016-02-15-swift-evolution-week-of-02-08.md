@@ -89,7 +89,8 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     _Previously_: Week of
     [Feb 1](/last-week-in-swift-evolution/2016/swift-evolution-week-of-02-01/#remove-implicit-tuple-splat).
 
-    I had thought this was an odd and hardly used feature, but Brent
+    I had thought this was an odd and hardly used feature that nobody
+    would miss if removed, but I was wrong &ndash; Brent
     Royal-Gordon uses this feature "reasonably often". He 
     [said](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160201/009340.html):
 
@@ -152,7 +153,7 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
 
     The earlier discussion on making classes final by default for
     libraries (previously: Week of [Dec 21](/last-week-in-swift-evolution/2015/swift-evolution-week-of-12-21/#final-by-default))
-    is a reflection of the first point above.
+    is a reflection of the these points.
 
     Erica Sadun wrote about this discussion [in her blog](http://ericasadun.com/2016/02/08/swift-resilience-conversation-commences/).
 
@@ -162,5 +163,5 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     talks about open-source Swift happenings last week.
 
     In particular, Jesse talks about the discussion on garbage
-    collection in the mailing lists that I haven't followed at all.
+    collection in the mailing lists which is a discussion that I haven't read up on.
 
