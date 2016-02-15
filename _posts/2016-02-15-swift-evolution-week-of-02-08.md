@@ -155,7 +155,7 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     libraries (previously: Week of [Dec 21](/last-week-in-swift-evolution/2015/swift-evolution-week-of-12-21/#final-by-default))
     is a reflection of the these points.
 
-    Erica Sadun wrote about this discussion [in her blog](http://ericasadun.com/2016/02/08/swift-resilience-conversation-commences/).
+    Erica Sadun wrote about this request for comments [in her blog](http://ericasadun.com/2016/02/08/swift-resilience-conversation-commences/).
 
 ### Other weeklies
 
