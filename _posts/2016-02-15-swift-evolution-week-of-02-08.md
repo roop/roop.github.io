@@ -165,3 +165,4 @@ list](https://lists.swift.org/pipermail/swift-evolution/):
     In particular, Jesse talks about the discussion on garbage
     collection in the mailing lists which is a discussion that I haven't read up on.
 
+**Update:** See also Erica Sadun's [excellent roundup of last week](http://ericasadun.com/2016/02/12/pterodactyls-and-thylacines-whats-evolvin-over-in-swift/).
