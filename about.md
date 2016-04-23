@@ -19,8 +19,7 @@ effort to make it great software.
 
 ### Related work
 
- * I'm writing a [weekly summary][lwise] on the evolution of Swift. (Let
-   me see how long I can keep that up.)
+ * I used to write a [weekly summary][lwise] on the evolution of Swift.
  * I [found and fixed a bug in Webkit][webkit_bugfix], thereby enabling
    content blocking to work correctly in some scenarios (including one
    that Hide & Seek had ran into)

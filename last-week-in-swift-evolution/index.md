@@ -10,6 +10,9 @@ rss: /last-week-in-swift-evolution/rss.xml
   <aside class="roop-intro">
   <p>A weekly summary of selected updates from the Swift Evolution
   repository and mailing list.</p>
+
+  <p><b>I no longer write this weekly.</b> I do intend to write about Swift
+  Evolution updates, but not in a weekly format.</p>
   </aside>
 
   <header class="post-index-header"><h1>Last week in Swift Evolution</h1></header>
