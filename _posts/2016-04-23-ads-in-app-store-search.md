@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Thoughts on ads in App Store search"
-description: "A what-if on the report that Apple is considering ads in App Store search results."
+description: "A recent report stated that Apple is considering ads in App Store search results. Here's a thought experiment on how it would work out if it came true."
 tagline: ""
 category: posts
 ---
