@@ -89,7 +89,7 @@ viability of paid-upfront apps being able to sustain themselves.
 
 Going forward, indies who want to make a living on the App Store *have*
 to market their apps, and might even *have* to spend for it. I've never
-placed an ad for my apps, but have seen many ads for indie apps in blogs
+placed an ad for my apps [^1], but have seen many ads for indie apps in blogs
 and a few on Twitter. App Store search ads, if it comes and is executed
 right, would be another useful marketing tool available to us.
 
@@ -105,3 +105,6 @@ The [Bloomberg report][bloomberg] also said:
 
 One can hope, right?
 
+---
+
+[^1]: Unless you count the ads at the bottom of posts in my site
