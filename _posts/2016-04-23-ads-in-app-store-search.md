@@ -30,7 +30,7 @@ Anything else you've spotted?)
 <figure>
 <img alt="Ad for Apple's Podcasts app in App Store search"
      src="/images/paid-search/podcasts-ad.png"
-     srcset="/images/paid-search/podcasts-ad.png 1x, {{ site.url }}/images/paid-search/podcasts@2X.png 2x"
+     srcset="/images/ads-in-appstore-search/podcasts-ad.png 1x, {{ site.url }}/images/ads-in-appstore-search/podcasts-ad@2X.png 2x"
     />
 <figcaption>
 Ad for Apple's Podcasts app in App Store search
