@@ -107,4 +107,4 @@ One can hope, right?
 
 ---
 
-[^1]: Unless you count the ads at the bottom of posts in my site
+[^1]: Except the plug for my apps at the end of posts in this website
