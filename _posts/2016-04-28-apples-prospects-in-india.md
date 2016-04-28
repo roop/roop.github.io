@@ -70,7 +70,7 @@ by even sub-$150 devices from big brands. The spread of LTE in India is
 not going to suddenly make iPhones more desirable, nor is there any
 significant upgrade cycle coming because of LTE.
 
-Second, Apple says there are "many, many different small shops" in
+Second, Tim Cook says there are "many, many different small shops" in
 India, but I doubt those shops can contribute much to iPhone sales. Most
 of the potential iPhone owners are in the cities, where Apple has been
 partnering with [premium resellers](http://www.apple.com/in/buy/apr/)
