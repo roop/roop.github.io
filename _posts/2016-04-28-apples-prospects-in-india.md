@@ -74,7 +74,7 @@ Second, Tim Cook says there are "many, many different small shops" in
 India, but I doubt those shops can contribute much to iPhone sales. Most
 of the potential iPhone owners are in the cities, where Apple has been
 partnering with [premium resellers](http://www.apple.com/in/buy/apr/)
-&ndash; retail outlets that try to give an Apple-store-ish feel.
+&ndash; retail outlets that try to give an Apple-Store-ish feel.
 
 I have no guesses on what Apple might have started regarding retail in
 the "last few weeks". As to what happened in the "last 18 months", Kunal
