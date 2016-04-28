@@ -116,7 +116,7 @@ Android-first, and sometimes stay Android-only.
 
 India does have a market for premium smartphones, but it's quite small.
 India can be a good potential market for previous-year iPhones and for
-refurbished iPhones, and Apple is making efforts on both. Given this
+refurbished iPhones, and Apple is making efforts on both fronts. Given this
 scenario, from Apple's perspective, India isn't like the China
 opportunity at all.
 
