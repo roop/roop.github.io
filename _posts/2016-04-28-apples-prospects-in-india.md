@@ -60,7 +60,7 @@ I think Tim Cook's outlook on the Indian market is a little too
 optimistic.
 
 Firstly, iPhone sales in India were never really hampered by the
-inavailability of LTE (or 4G as they call it here in India). Anyone who
+unavailability of LTE (or 4G as they call it here in India). Anyone who
 can afford an iPhone in India has access to a fast broadband internet
 either at home or at work, probably both. The LTE rollout speeded up
 only this year here in India (earlier, only one network operator,
@@ -93,7 +93,7 @@ capita](https://www.google.co.in/publicdata/explore?ds=d5bncppjof8f9_&met_y=ny_g
 but India has far less number of people who can afford an iPhone than
 China does. The addressable market for Apple in India is tiny, and is
 growing quite slowly [^pew]. Of that, those who can afford the current
-year flagship will constitute a miniscule number compared to China.
+year flagship will constitute a minuscule number compared to China.
 
 As Ben Thompson [explains][stratechery]:
 
