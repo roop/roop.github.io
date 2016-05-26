@@ -53,7 +53,8 @@ foundation to build its dynamism on. I share Brent Simmons' optimism in
 
 I believe there's a way to evaluate how true Brent's optimistic
 suspicion is: To look at Swift's internals at present and see if the
-dynamism we desire can be built on top of it.
+dynamism we desire can be built on top of it. (**Update:** This does
+not constitute evidence. See updates below.)
 
 Internally, Swift class instances, even of pure Swift classes [^1], have
 a memory layout that looks exactly like an Objective-C class instance -
@@ -62,9 +63,9 @@ dispatch table (as Mike Ash [found out][mike_ash] early on). However,
 while in Objective-C, all methods are listed in the dispatch table, in
 Swift, only those methods marked `dynamic` are listed [^2]. Since Swift
 guarantees that `dynamic` methods are never devirtualized, and since
-`dynamic` is part of [Swift's library ABI goals][library_evolution], it's
+`dynamic` is part of [Swift's library ABI goals][library_evolution], <del>it's
 highly likely that the dispatch table would remain in future Swift versions
-as well.
+as well</del> (See update below).
 
 The presence of this dispatch table would enable Objective-C-like
 dynamic features to be built on top.  I'm reasonably hopeful that well
@@ -75,12 +76,30 @@ almost definitely remain disabled by default and would need to be
 enabled for specific methods and properties using the `dynamic`
 modifier.
 
+---
+**Update:**
+
+[Jordan Rose](https://twitter.com/UINT_MIN/status/735925069545754625) from the Swift team:
+
+> Without commenting on anything else, I wouldn't count this as evidence; it's not present on Linux.
+>
+> `dynamic` is currently limited to `@objc` methods, which is fine because there's no other way to replace them.
+
+This is indeed true. Even the doc for `dynamic` starts with “When Swift APIs are imported by the Objective-C runtime”. My mistake in having missed noting that when I wrote this post.
+
+Since the `dynamic` modifier exists only for interoperability with
+Objective-C, this isn't sufficient evidence to say that Swift classes
+will gain dynamism similar to Objective-C classes.
+
+---
+
 A related fun observation: All pure Swift root classes have an `isa`
 saying that they inherit from a `SwiftObject` class, which is at present
 actually [written in Objective-C][SwiftObject.mm] [^3], conforming to the
-`NSObject` protocol (and the code is designed to work even when
+`NSObject` protocol (<del>and the code is designed to work even when
 Swift-Objective-C-interoperability is not required i.e. when
-`SWIFT_OBJC_INTEROP` is false).
+`SWIFT_OBJC_INTEROP` is false</del> (**Update:** `SwiftObject` is [not even available](https://twitter.com/UINT_MIN/status/735928797745188864)
+when Swift-Objective-C-interoperability is off).
 Because of this, you can actually send `respondsToSelector:` to an
 instance of a _pure Swift class_ to check for methods marked `dynamic`
 (after casting to `AnyObject` to keep the compiler happy):
@@ -96,10 +115,32 @@ let c = C()
 (c as! AnyObject).respondsToSelector("dynamicfn") // true
 ~~~
 
+---
+**Update:**
+
+[Jordan Rose](https://twitter.com/UINT_MIN/status/735925203654430720):
+
+> A good amount of `SwiftObject` comes down to "there should be no problems putting a Swift object in an NSArray".
+
+That makes sense as well. Swift classes pose as Objective-C classes when
+interoperating with Objective-C so that the Objective-C code can talk to
+Swift without having to resort to Swift-specific hacks.
+
+---
+
 Given how pure Swift classes closely resemble Objective-C classes
 internally, I think Swift will eventually gain dynamic features
 comparable to Objective-C, and I think that will happen well before
 it's time for the Objective-C runtime to get sunsetted.
+
+---
+**Update:**
+
+[Jordan Rose](https://twitter.com/UINT_MIN/status/735936491742887936):
+
+> All of this doesn't mean we won't do it! It just means we won't do it just because Objective-C does it.
+
+So there's still hope. :)
 
 [library_evolution]: https://github.com/apple/swift/blob/master/docs/LibraryEvolution.rst
 [mike_ash]: https://www.mikeash.com/pyblog/friday-qa-2014-07-18-exploring-swift-memory-layout.html
