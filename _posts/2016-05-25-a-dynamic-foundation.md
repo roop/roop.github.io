@@ -27,7 +27,7 @@ In [one of those posts][brent_summary], he summarizes his case as:
 
 Though we app developers rarely have to deal directly with the
 Objective-C runtime, many frameworks we use do that in order to give us
-powerful features in a deceptively simple interface (like KVO and Core
+powerful features in deceptively simple interfaces (like KVO and Core
 Data). That, in turn, makes it easier for us to develop apps.
 
 So the reduced dynamism in Swift doesn't affect us now, but it might hit
