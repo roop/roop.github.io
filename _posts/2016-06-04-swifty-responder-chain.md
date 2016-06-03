@@ -272,7 +272,7 @@ with this.
 ### So far so good
 
 It's amazing that Swift protocols can get us this far towards a
-responder chain implementation (a full working example is
+responder chain implementation (the full working code is
 [here][gist]). And we can already see how it can get better as Swift
 gets its wrinkles ironed out.
 
