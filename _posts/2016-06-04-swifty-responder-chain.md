@@ -269,6 +269,50 @@ variables of `Responder` or any of its sub-protocols like
 `CopyResponder`, nor can we downcast to those types, so we can't get far
 with this.
 
+**Update 6/Jul/2015:** As Matthew Johnson [explained][mj_twitter] to me
+over Twitter, this solution is requires that a type be able to conform
+to a root protocol in multiple ways (i.e. `MyView` needs to conform to
+`Responder` through `CopyResponder` as well as through
+`GoFishingResponder`), which the Swift team frowns upon. Therefore this
+solution for a responder chain might not become feasible even in the
+future.
+
+[mj_twitter]: https://twitter.com/anandabits/status/741245072004374528
+
+Moreoever, this way of modelling a responder chain can be done using
+protocol generics:
+
+~~~ Swift
+protocol Responder<C: Command> {
+    func canPerformCommand(command: C)
+    func performCommand(command: C)
+}
+
+protocol Responder<CopyCommand> {
+    func canPerformCommand(command: CopyCommand)
+    func performCommand(command: CopyCommand)
+}
+
+extend MyView: Responder<CopyCommand> {
+    ...
+}
+~~~
+
+And Doug Gregor's [Generics Manifesto mail][generics_manifesto_mail]
+says generic protocols is unlikely to become part of Swift because:
+
+> [These use cases] seem too few to justify the potential for
+> confusion between associated types and generic parameters of
+> protocols; we’re better off not having the latter.
+
+I think the responder chain is a good use case for generic protocols
+&ndash; there's no confusion in a type conforming to `Responder` in
+multiple ways. However, I think there is going to be still a problem
+casting an object to `Responder`, so it might not be a sufficiently good
+use case. **&lt;/End of update&gt;**
+
+[generics_manifesto_mail]: https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160229/011666.html
+
 ### So far so good
 
 It's amazing that Swift protocols can get us this far towards a
