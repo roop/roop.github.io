@@ -4,6 +4,8 @@ title: "Swifty Responder Chain"
 description: "Trying to create a responder chain implementation in pure Swift"
 tagline: ""
 category: posts
+postscript: "This post was discussed in [iOS Dev Weekly](http://iosdevweekly.com/issues/254#code) and [Swift Weekly](http://swiftweekly.com/issues/issue-42)."
+
 ---
 
 From Jordan Rose's tweets in response to [my previous post][prev_post]
