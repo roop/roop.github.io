@@ -271,7 +271,11 @@ variables of `Responder` or any of its sub-protocols like
 `CopyResponder`, nor can we downcast to those types, so we can't get far
 with this.
 
-**Update 6/Jul/2015:** As Matthew Johnson [explained][mj_twitter] to me
+---
+
+**Update 6/Jul/2015:**
+
+As Matthew Johnson [explained][mj_twitter] to me
 over Twitter, this solution is requires that a type be able to conform
 to a root protocol in multiple ways (i.e. `MyView` needs to conform to
 `Responder` through `CopyResponder` as well as through
@@ -282,7 +286,7 @@ future.
 [mj_twitter]: https://twitter.com/anandabits/status/741245072004374528
 
 Moreoever, this way of modelling a responder chain can be done using
-protocol generics:
+generic protocols:
 
 ~~~ Swift
 protocol Responder<C: Command> {
@@ -311,16 +315,19 @@ I think the responder chain is a good use case for generic protocols
 &ndash; there's no confusion in a type conforming to `Responder` in
 multiple ways. However, I think there is going to be still a problem
 casting an object to `Responder`, so it might not be a sufficiently good
-use case. **&lt;/End of update&gt;**
+use case.
 
 [generics_manifesto_mail]: https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160229/011666.html
+
+---
 
 ### So far so good
 
 It's amazing that Swift protocols can get us this far towards a
 responder chain implementation (the full working code is
-[here][gist]). And we can already see how it can get better as Swift
-gets its wrinkles ironed out.
+[here][gist]). And we can already see how it can get better <del>as Swift
+gets its wrinkles ironed out</del> <ins>with some changes to how Swift does
+things</ins>.
 
 That said, the responder chain was probably an easy start. KVO and Core
 Data will get progressively harder to create without dynamic language
