@@ -5,6 +5,8 @@ description: "In the Q2 2016 earnings call, Tim Cook fielded a question
 on India as a market for Apple. Here's me trying to add some context to his answer."
 tagline: ""
 category: posts
+postscript: "[Daring Fireball](http://daringfireball.net/linked/2016/05/03/chander-iphone-india) and [BGR](http://bgr.com/2016/05/04/iphone-sales-india-challenges-china/) / [Yahoo Tech](https://www.yahoo.com/tech/apple-next-big-iphone-growth-plan-faces-big-003032440.html) quoted from this post."
+
 ---
 
 In the Q&A after Apple's [Q2 2016 earnings call][imore], Tim Cook
