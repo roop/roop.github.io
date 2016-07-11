@@ -5,6 +5,8 @@ description: "In which I argue that Swift has a solid base on which to
 build dynamic features like Objective-C's."
 tagline: ""
 category: posts
+postscript: "This post was discussed in [Swift Weekly](http://swiftweekly.com/issues/issue-40)."
+
 ---
 
 Brent Simmons, in a series of posts, argued the case for making Swift
