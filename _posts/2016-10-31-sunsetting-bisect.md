@@ -19,7 +19,7 @@ on. This has led me to the decision to stop selling Bisect.
 
 ### Closing down
 
-Bisect will be pulled off the App Store on Nov 30, 2016.
+Bisect <del>will be</del> has been pulled off the App Store on Nov 30, 2016.
 
 If you're using Bisect, it will continue to work as it does now
 (including premium features if you've unlocked that). The Markdown
