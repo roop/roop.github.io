@@ -15,7 +15,7 @@ effort to make it great software.
 ### Apps I made
 
  * [Hide & Seek][]: A Safari content blocker to improve privacy on your web searches
- * [Bisect][]: A split-screen Markdown editor for the iPad
+ * [Bisect][]: A split-screen Markdown editor for the iPad [[Retired](http://roopc.net/posts/2016/sunsetting-bisect/)]
 
 ### Related work
 

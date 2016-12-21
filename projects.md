@@ -14,13 +14,6 @@ A Safari content blocker extension to improve your privacy when making web searc
 **Website:** [roopc.net/hideandseek/](/hideandseek/ "Hide & Seek")
 <hr />
 
-<h3>Bisect</h3>
-
-Bisect is a split-screen writing app for the iPad.
-
-**Website:** [bisectapp.com](http://bisectapp.com "Bisect for iPad")
-<hr />
-
 <h3>vfmd</h3>
 
 vfmd is a variant of John Gruber's [Markdown] with a unambiguous parser
@@ -36,6 +29,13 @@ specification of the syntax.
 <section markdown="1">
 
 <h2>Older projects</h2>
+
+<h3>Bisect</h3>
+
+Bisect is a split-screen writing app for the iPad.
+
+**Website:** [bisectapp.com](http://bisectapp.com "Bisect for iPad")
+<hr />
 
 <h3>Notekeeper</h3>
 
