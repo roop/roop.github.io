@@ -58,20 +58,13 @@ Outlook) in other tabs as a logged in user.
 
 Some caveats:
 
-  - On the iPhone / iPad: When you'd like to follow a Google search
-    result, if you'd like to hide that action from Google, use the 'Open
-    in New Tab' option rather than tapping on a result directly.
-  - On the iPad: When using Google Images search and when Hide & Seek is
-    hiding your identity for that search, to visit the origin website of
-    the image, you might have to use the 'Open in New Tab' option rather
-    than tapping on a result directly.
   - On the iPhone: When you’d like to follow a Bing search result, you
     might have to use the ‘Open in New Tab’ option rather than tapping
     on a result directly.
   - On the Mac: When using Google Images search and when Hide & Seek is
     hiding your identity for that search, clicking on the ‘View page’ or
-    ‘View image’ links might not work – please right-click and use the
-    ‘Open in New Tab’ option instead.
+    ‘View image’ links might show a redirect notice with a link you can
+    follow, rather than directly taking you to the destination page
 
 You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
 
