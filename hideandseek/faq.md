@@ -55,28 +55,13 @@ that tell Safari to block cookies on certain URLs.</p>
 <h4>Okay, you hide my search activity from Google and Bing. What about my
 following a search result from Google or Bing? Won&rsquo;t that get tracked?</h4>
 
-<p>Without Hide &amp; Seek, both Google and Bing take note of which
+<p>Hide &amp; Seek prevents both Google and Bing from taking note of which
 search results you tap on.</p>
 
-<p>When using Hide &amp; Seek for iOS:</p>
-
-<ul>
-   <li>When using Bing, you don&rsquo;t have to do anything special &mdash; this app takes
-   care of preventing Bing from taking note of this activity.</li>
-   <li>When using Google, to prevent Google from tracking this, please use the &lsquo;Open
-   in New Tab&rsquo; option (press-and-hold on the link to see this option) when you&rsquo;d
-   like to follow a link.</li>
-</ul>
-
-<h4>Why can&rsquo;t Hide &amp; Seek for iOS hide my identity when I tap on a Google search result?</h4>
-
-<p>Unfortunately, this requires a technical answer. The result link in the
-Google search results page on Safari for iOS is an &lsquo;a&rsquo; HTML element with a &lsquo;ping&rsquo; attribute. When you
-click on the &lsquo;a&rsquo; element, in addition to the link opening, a notification is sent to the
-URL in the &lsquo;ping&rsquo; attribute. This notification is not covered by content blockers, so
-Hide &amp; Seek can&rsquo;t help here.</p>
-
-<p>When you use &lsquo;Open in New Tab&rsquo;, the &lsquo;ping&rsquo; attribute doesn&rsquo;t come into effect at all.</p>
+<p>Previously, the iOS app was unable to prevent Google from taking note
+of this activity (so one had to use the 'Open in New Tab' option
+instead), but that's fixed in version 1.1 of Hide &amp; Seek for
+iOS.</p>
 
 <h4>How can I be sure this app actually does hide my identity from Google / Bing?</h4>
 
