@@ -79,8 +79,11 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
    href="https://itunes.apple.com/us/app/hide-seek-improve-your-privacy/id1039871117?ls=1&mt=8&at=1000l6ab&ct=web"
    ><img alt="App Store"
     src="app_store_badge.svg" /></a></p>
-   <p>$ 2.99 Universal App<br/>
-  Requires iOS 9 on a 64-bit device</p>
+   <p class = "tight-lines">
+   <a href="releasenotes/ios/">Version 1.1</a><br/>
+   $ 2.99 Universal App<br/>
+   Requires iOS 10 on a 64-bit device
+   </p>
   </div>
   </div>
 </div>
@@ -94,8 +97,11 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
     src="SafariExtnGalleryBadge.png"
     srcset="SafariExtnGalleryBadge.png 1x, SafariExtnGalleryBadge@2x.png 2x"
     /></a></p>
-   <p>Free Safari Extension<br/>
-  Requires OS X El Capitan</p>
+   <p class="tight-lines">
+   <a href="releasenotes/macos/">Version 1.1</a><br/>
+   Free Safari Extension<br/>
+   Requires macOS 10.11 or later
+   </p>
   </div>
   </div>
 </div>
