@@ -13,6 +13,18 @@ title: "Hide and Seek for macOS: Release Notes"
 
 <h2 class="keep-case">Release Notes: Hide & Seek for macOS</h2>
 
+<h3>Version 1.2</h3>
+
+<em>Released Mar 2017.</em>
+
+  - Previously, Hide & Seek for macOS disregarded Google searches made
+    in <a href="http://encrypted.google.com/">encrypted.google.com</a>
+    (even though Hide & Seek for iOS had always handled them correctly).
+    This update fixes that, so your identity now stays hidden in the
+    searches you make in <a
+    href="http://encrypted.google.com/">encrypted.google.com</a> as
+    well.
+
 <h3>Version 1.1</h3>
 
 <em>Released Feb 2016.</em>

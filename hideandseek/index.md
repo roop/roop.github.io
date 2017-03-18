@@ -98,7 +98,7 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
     srcset="SafariExtnGalleryBadge.png 1x, SafariExtnGalleryBadge@2x.png 2x"
     /></a></p>
    <p class="tight-lines">
-   <a href="releasenotes/macos/">Version 1.1</a><br/>
+   <a href="releasenotes/macos/">Version 1.2</a><br/>
    Free Safari Extension<br/>
    Requires macOS 10.11 or later
    </p>
