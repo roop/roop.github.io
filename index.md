@@ -12,22 +12,12 @@ title: "roopc.net"
 
   <header class="post-index-header"><h1>Latest posts</h1></header>
 
-  {% for post in site.categories.posts limit:3 %}
+  {% for post in site.categories.posts limit:10 %}
   <div class="post-index">
     {% include post-summary.html %}
     <hr />
   </div>
   {% endfor %}
-
-  <div style="height: 3em;"></div>
-
-  <header class="post-index-header"><h1>Popular posts</h1></header>
-  {% for post in site.categories.posts %}{% if site.popular-posts contains post.id %}
-  <div class="post-index">
-    {% include post-summary.html %}
-    <hr />
-  </div>
-  {% endif %}{% endfor %}
 
 </div>
 
