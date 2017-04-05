@@ -51,7 +51,7 @@ needs of our growing customer base here". There are tons of India
 centric apps on Android, but not many on iOS, which is a reflection
 of the Indian smartphone market being heavily skewed towards Android.
 Getting more India-centric apps would be an important cog in Apple's
-wheel in moving towards growth in India.
+wheel for growing bigger in India.
 
 [talking to NDTV]: http://gadgets.ndtv.com/apps/news/phil-schiller-in-india-to-mark-official-opening-of-apples-app-accelerator-in-bengaluru-1675684
 
