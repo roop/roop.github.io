@@ -278,12 +278,15 @@ do {
 
 ### Try it
 
-Citron is [on Github][Citron], along with a few [examples].
+The Citron code is [on Github][github], along with a few [examples]. There's also
+a more [detailed documentation][doc].
 
 I'd be happy to answer questions or take feedback [on Twitter] or [by
 email].
 
+[github]: https://github.com/roop/citron
 [examples]: https://github.com/roop/citron/tree/master/examples/
+[doc]: http://roopc.net/citron/
 [on Twitter]: https://twitter.com/roopeshchander
 [by email]: mailto:roop@roopc.net
 
