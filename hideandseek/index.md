@@ -61,6 +61,9 @@ Some caveats:
   - On the iPhone: When you’d like to follow a Bing search result, you
     might have to use the ‘Open in New Tab’ option rather than tapping
     on a result directly.
+  - On the Mac: If you're using macOS Sierra, searching from the Safari
+    address bar _does not_ hide your identity from the search site, so
+    please avoid doing that, or upgrade to macOS High Sierra.
   - On the Mac: When using Google Images search and when Hide & Seek is
     hiding your identity for that search, clicking on the ‘View page’ or
     ‘View image’ links might show a redirect notice with a link you can
