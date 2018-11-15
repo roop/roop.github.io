@@ -13,6 +13,13 @@ title: "Hide and Seek for macOS: Release Notes"
 
 <h2 class="keep-case">Release Notes: Hide & Seek for macOS</h2>
 
+<h3>Version 1.3</h3>
+
+<em>Released Feb 2018.</em>
+
+  - Added a way to open the 'Configure Hiding' page from the Safari
+    Preferences > Extensions panel.
+
 <h3>Version 1.2</h3>
 
 <em>Released Mar 2017.</em>
