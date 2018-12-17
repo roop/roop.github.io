@@ -26,8 +26,8 @@ for use in iOS.
 [tried]: https://github.com/roop/NEWireGuard
 [the WireGuard protocol]: https://www.wireguard.com/protocol/
 
-When I took a look at WireGuard after a few months, they had a C API for
-the WireGuard protocol that could be used from iOS, and an effort to
+When I took a look at WireGuard after a few months, a C API based on
+WireGuard-Go was available that could be used from iOS, and an effort to
 make an iOS app was underway.
 
 I proposed a rewrite of the app to:
@@ -35,9 +35,21 @@ I proposed a rewrite of the app to:
   - Use the VPN tunnel for data persistance instead of Core Data
   - Redo the UI to support both the iPhone and iPad
   - Redo the UI in code (no Interface Builder)
+  - Minimize dependancies on third-party code
   - Enable a macOS version to be developed with the same code base
 
 My pitch was accepted, and I'm currently working on this project.
+
+The features implemented so far in the iOS version are:
+
+  - Bringing up a WireGuard tunnel
+  - Creating, viewing and modifying tunnel configurations
+  - Importing from a .conf or .zip file
+  - Importing through QR code (adapted from the code before my rewrite)
+  - Exporting all tunnels to a .zip file
+  - On-Demand VPN
+  - State Restoration
+  - Support for Dynamic Type
 
 ---
 
