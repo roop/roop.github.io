@@ -25,7 +25,8 @@ permalink: /work/index.html
 
  - [vfmd](http://www.vfmd.org/ "vfmd.org"), a Markdown spec and parser
  - [Bisect](/work/bisect/), a Markdown editor for the iPad
- - [Hide & Seek](/hideandseek/), a Safari content blocker
+ - [Hide & Seek](/hideandseek/), a Safari content blocker for iOS and
+   macOS
  - [Contribution to WebKit](/posts/2017/hide-and-seek-bug-webkit/)
  - [Last Week in Swift Evolution](/last-week-in-swift-evolution/), a
    weekly writeup
