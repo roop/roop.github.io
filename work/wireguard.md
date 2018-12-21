@@ -13,9 +13,11 @@ permalink: /work/wireguard/index.html
 ## WireGuard
 
 I'm working on bringing the [WireGuard] VPN tunnel to iOS and macOS using
-the Network Extension framework. The iOS version is now [in beta].
+the Network Extension framework. The iOS version is now [in the App
+Store][appstore] ([announcement][announcement]).
 
-[in beta]: https://lists.zx2c4.com/pipermail/wireguard/2018-November/003526.html
+[appstore]: https://itunes.apple.com/us/app/wireguard/id1441195209?ls=1&mt=8
+[announcement]: https://lists.zx2c4.com/pipermail/wireguard/2018-December/003694.html
 
 I initially [tried] to implement [the WireGuard protocol] in Swift, but
 abandoned that after learning that the WireGuard team had plans to make
