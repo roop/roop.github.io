@@ -205,6 +205,11 @@ input ends prematurely.
 Moreover, we can throw errors from within a rule's code block and those
 throws would propagate up to one of the two parsing methods.
 
+**Update:** In Citron 2.0, you can use [error capturing] for more
+advanced error handling.
+
+[error capturing]: /citron/error-capturing/
+
 ### The lexer interface
 
 Citron offers a simple lexer that can tokenize an input string.
