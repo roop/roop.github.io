@@ -97,6 +97,12 @@ explicitly chose to share with the app. That way, TRAI can create an app
 to report errant SMS messages, while Apple can retain their right to not
 give apps blanket access to the phone's SMS data.
 
+**Update:** Apple now offers a much more complete solution for reporting
+spam calls and SMSes with the [SMS and Call Spam Reporting
+API](https://developer.apple.com/documentation/sms_and_call_reporting/sms_and_call_spam_reporting),
+which would be perfect for a TRAI iOS app to make use of.
+
+
 So this is how I think TRAI and Apple can settle this without
 compromising either party's positions, and simultaneously keep Apple's
 privacy-conscious customers happy as well.
