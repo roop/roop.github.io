@@ -4,13 +4,11 @@ permalink: /about/index.html
 title: "About"
 ---
 
+<section markdown="1">
+
 <aside class="roop-intro">
 <p>{% include roop-intro.html %}</p>
 </aside>
-
-When creating software, I design the user experience,
-write the code and create a lot of the graphics. I take the
-effort to make it great software.
 
 ### Apps I've made
 
@@ -27,3 +25,5 @@ I'm now [working on](/work/wireguard/) bringing the [WireGuard](https://www.wire
 ### Ping me
 
 If you'd like to get in touch, you can find me on Twitter ([@roopeshchander](http://twitter.com/roopeshchander)) or send me an email (**roop at roopc dot net**).
+
+</section>
