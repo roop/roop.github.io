@@ -84,7 +84,7 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
     src="app_store_badge.svg" /></a></p>
    <p class = "tight-lines">
    <a href="releasenotes/ios/">Version 1.1</a><br/>
-   $ 2.99 Universal App<br/>
+   Free Universal App<br/>
    Requires iOS 10 on a 64-bit device
    </p>
   </div>
