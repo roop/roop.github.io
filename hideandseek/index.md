@@ -63,7 +63,7 @@ Some caveats:
     on a result directly.
   - On the Mac: If you're using macOS Sierra, searching from the Safari
     address bar _does not_ hide your identity from the search site, so
-    please avoid doing that, or upgrade to macOS High Sierra.
+    please avoid doing that, or upgrade your OS.
   - On the Mac: When using Google Images search and when Hide & Seek is
     hiding your identity for that search, clicking on the ‘View page’ or
     ‘View image’ links might show a redirect notice with a link you can
@@ -85,7 +85,7 @@ You can find out more in the [Skeptic's FAQ](/hideandseek/faq/).
    <p class = "tight-lines">
    <a href="releasenotes/ios/">Version 1.1</a><br/>
    Free Universal App<br/>
-   Requires iOS 10 on a 64-bit device
+   Requires iOS 10 or later on a 64-bit device
    </p>
   </div>
   </div>
