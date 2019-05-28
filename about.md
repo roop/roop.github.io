@@ -10,20 +10,21 @@ title: "About"
 <p>{% include roop-intro.html %}</p>
 </aside>
 
-### Apps I've made
+### Now
 
- * [Hide & Seek][]: A Safari content blocker to improve privacy on your web searches
- * [Bisect][]: A split-screen Markdown editor for the iPad [[Retired](http://roopc.net/posts/2016/sunsetting-bisect/)]
+  * Working on [WireGuard VPN apps](/work/wireguard/) for iOS and macOS
 
+### Previously
+
+  * [Citron][]: An LALR parser generator for Swift
+  * [Hide & Seek][]: A Safari content blocker to improve privacy on your web searches
+
+[Citron]: http://roopc.net/citron/ "Citron: A parser generator for Swift"
 [Hide & Seek]: /hideandseek/ "Hide & Seek"
-[Bisect]: http://bisectapp.com "Bisect: A split-screen Markdown editor for the iPad"
-
-### What's happening now
-
-I'm now [working on](/work/wireguard/) bringing the [WireGuard](https://www.wireguard.com) VPN tunnel to iOS and macOS.
 
 ### Ping me
 
-If you'd like to get in touch, you can find me on Twitter ([@roopeshchander](http://twitter.com/roopeshchander)) or send me an email (**roop at roopc dot net**).
+  * On Twitter: [@roopeshchander](http://twitter.com/roopeshchander)
+  * By email: roop at roopc dot net
 
 </section>
