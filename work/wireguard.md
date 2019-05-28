@@ -67,7 +67,11 @@ The iOS version includes these additional features:
 
 The macOS version includes these additional features:
 
-  - Bringing up / bringing down a Wireguard tunnel from the status bar
+  - Bringing up / down a Wireguard tunnel from the status bar
+  - The app automatically starts when the user logs in, if it was
+    running when the user logged off
+  - The app appears in the dock only when a window is shown -- if the
+    app is just in the status bar, the app isn't shown in the dock
 
 ---
 
