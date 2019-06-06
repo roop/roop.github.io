@@ -75,6 +75,6 @@ The macOS version includes these additional features:
 
 ---
 
-**Source code:** [https://git.zx2c4.com/wireguard-ios/](https://git.zx2c4.com/wireguard-ios/)
+**Source code:** [https://git.zx2c4.com/wireguard-ios/](https://git.zx2c4.com/wireguard-apple/)
 
 
