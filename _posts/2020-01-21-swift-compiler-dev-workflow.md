@@ -75,9 +75,6 @@ To rebuild Swift after making changes, we can run:
     $ cd $SWIFT_BUILD_DIR
     $ ninja swift
 
-I like to open up a separate iTerm2 tab for incremental builds like
-this.
-
 If there were no changes to header files, rebuilding Swift would
 typically take only a few minutes.
 
