@@ -12,7 +12,7 @@ title: "roopc.net"
 
   <header class="post-index-header"><h1>Latest posts</h1></header>
 
-  {% for post in site.categories.posts limit:10 %}
+  {% for post in site.categories.posts limit:3 %}
   <div class="post-index">
     {% include post-summary.html %}
     <hr />
