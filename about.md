@@ -10,19 +10,16 @@ title: "About"
 <p>{% include roop-intro.html %}</p>
 </aside>
 
-### Now
+### I made
 
-  * Working on [WireGuard VPN apps](/work/wireguard/) for iOS and macOS
-
-### Previously
-
+  * The official [WireGuard VPN apps](/work/wireguard/) for iOS and macOS
   * [Citron][]: An LALR parser generator for Swift
   * [Hide & Seek][]: A Safari content blocker to improve privacy on your web searches
 
 [Citron]: http://roopc.net/citron/ "Citron: A parser generator for Swift"
 [Hide & Seek]: /hideandseek/ "Hide & Seek"
 
-### Ping me
+### Get in touch
 
   * On Twitter: [@roopeshchander](http://twitter.com/roopeshchander)
   * By email: roop at roopc dot net
