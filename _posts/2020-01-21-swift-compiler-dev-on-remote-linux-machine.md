@@ -305,10 +305,16 @@ and Ninja to build llvm, Swift and the Swift standard library.
 By default, `build-script` will spawn as many parallel jobs as there
 are CPUs in the machine, which is good while compiling. However,
 linking uses a lot of memory, so we don't want to be doing multiple
-link jobs at a time. There's no way I know of to tell the build
+link jobs at a time.
+
+<s>There's no way I know of to tell the build
 system to not use parallel jobs only while linking, so the easy way
 out is to ask the build script to run all jobs sequentially (`-j1`).
-This will however increase the initial build time quite a bit.
+This will however increase the initial build time quite a bit.</s>
+
+**Update:** To tell the build system not to use parallel jobs while
+linking, we can set the relevant CMake properties using the
+`--llvm-cmake-options` and `--swift-cmake-options` arguments.
 
 To be able to work on compiler features, we want to build the compiler
 in debug mode. If you work on other parts of Swift (say the Swift
@@ -319,9 +325,9 @@ To build only Swift in debug mode and everything else in release mode,
 we say:
 
     $ cd ~/swift-source
-    $ ./swift/utils/build-script --release --debug-swift -j1
+    $ ./swift/utils/build-script --release --debug-swift --llvm-cmake-options==-DLLVM_PARALLEL_LINK_JOBS=1 --swift-cmake-options=-DSWIFT_PARALLEL_LINK_JOBS=1
 
-This build can take about 5 hours, and will write the build results to
+This build can take about 3 hours, and will write the build results to
 `build/Ninja-ReleaseAssert+swift-DebugAssert`.
 
 It helps to set up `SWIFT_BUILD_DIR` and `PATH` environment variables
@@ -341,9 +347,8 @@ help us run the Swift testsuite from any directory.
 
 In case you want to build everything with debug information (and your
 server has 8 GB RAM or more), you can pass `--release-debuginfo` instead
-of `--release` to `build-script`. Doing that can increase the build time
-to more than 10 hours, and the build results will be placed in a
-different directory.
+of `--release` to `build-script`. This build will take longer to
+complete, and the build results will be placed in a different directory.
 
 ### Set up the development environment
 
