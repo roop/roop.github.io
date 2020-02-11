@@ -136,9 +136,11 @@ and the Swift standard library.
     $ git checkout <feature-branch> # rebase again onto master if reqd.
     ~~~
 
-    Then we should run `build-script` [as we did before](#build-it).
-    Incremental runs of `build-script` take lesser time than clean
+    We can now run `build-script` with the same options as the [initial
+    build]. Incremental runs of `build-script` take lesser time than clean
     runs.
+
+[initial build]: /posts/2020/swift-compiler-dev-on-remote-linux-machine/#build-it
 
 ### Testing
 
@@ -151,9 +153,8 @@ using llvm's [FileCheck] utility.
 
 [FileCheck]: https://www.llvm.org/docs/CommandGuide/FileCheck.html
 
-We use the `lit.py` script for that.  If
-we'd [set up our environment variables](#set-up-the-shell-environment),
-`lit.py` should be available in our `PATH`.
+We use the `lit.py` script for that. The following commands assume that
+`lit.py` is available in our `PATH`.
 
 By default, `lit.py` prints one of "PASS:", "FAIL:" or "XFAIL:" (which
 means expected failure) for every testcase. Passing `-s` suppresses
