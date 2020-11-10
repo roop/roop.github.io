@@ -32,5 +32,6 @@ permalink: /work/index.html
    weekly writeup
  - [Citron](/citron/), a parser generator for Swift
  - [WireGuard apps for iOS and macOS](/work/wireguard/)
+ - [eduVPN apps for iOS and macOS](/work/eduvpn/)
 
 </section>

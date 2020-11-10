@@ -10,6 +10,12 @@ title: "About"
 <p>{% include roop-intro.html %}</p>
 </aside>
 
+### I'm working on
+
+  * The [eduVPN] iOS and macOS apps
+
+[eduVPN]: /work/eduvpn/
+
 ### I made
 
   * The official [WireGuard VPN apps](/work/wireguard/) for iOS and macOS
