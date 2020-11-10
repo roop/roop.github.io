@@ -44,8 +44,8 @@ I proposed a rewrite of the app to:
   - Minimize dependancies on third-party code
   - Enable a macOS version to be developed with the same code base
 
-My pitch was accepted, and I'm currently working on this project. My
-work on this project is sponsored by the [NLnet Foundation][nlnet].
+My pitch was accepted. My work on this project was sponsored by the
+[NLnet Foundation][nlnet].
 
 [nlnet]: http://nlnet.nl/
 
